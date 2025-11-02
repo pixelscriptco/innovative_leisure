@@ -1,0 +1,91 @@
+.navbar-brand .logo {
+ width: 150px;
+}
+
+.header .navbar {
+    background-color: #0a1f44;
+}
+
+
+.color-primary {
+    color: #0a1f44;
+}
+
+.color-gold {
+    color: #c2a146 !important;
+}
+
+
+.homeService {
+    background-color:   #e7e7e763
+}
+
+.whyPartner  .feature-card .feature-card-icon i {
+   font-size: 36px;
+}
+
+.WhatSetsApart .info-card .info-card-step,
+.WhatSetsApart .info-card .info-card-title {
+    color: #0a1f44;
+}
+
+.whyPartner .feature-card .feature-card-title {
+    color: #fff !important;
+
+}
+
+.footer--widget  ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.footer--widget  ul li {
+    line-height: 27px;
+}
+
+.serviceAbout {
+    background-color: #e7e7e763
+}
+
+.serviceAbout .btn {
+    width: unset ;
+    padding: 0 15px;
+    color: #fff;
+    background-color: #0a1f44 !important;
+}
+
+.serviceAbout .btn:hover {
+    color: #0a1f44;
+    background-color: #fff !important;
+    border: 1px solid #0a1f44;
+}
+
+#business-models img {
+  transition: transform 0.4s ease;
+}
+#business-models img:hover {
+  transform: scale(1.03);
+}
+#business-models .row {
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 2rem;
+}
+#business-models .row:last-child {
+  border-bottom: none;
+}
+
+#business-models h4 {
+    margin-top: 10px;
+}
+
+#business-models .btn--bordered.btn--secondary {
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
