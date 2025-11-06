@@ -40,7 +40,8 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
-                    <form class="mb-0">
+                    <form class="mb-0" id="contact-form" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <input type="text" class="form-control" name="contact-name" id="contact-name" placeholder="Full Name" required="">
@@ -74,7 +75,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <input type="submit" value="Submit Request" name="submit" class="btn btn--primary">
+                                <input type="submit" value="Submit Request" name="submit" class="btn btn--primary submit-contact">
                             </div>
                         </div>
                         <div class="row">
@@ -115,7 +116,7 @@
                     <div class="contact--info">
                         <h3>Our Email</h3>
                         <p>info@innovative-leisure.com</p>
-                   
+
                     </div>
                 </div>
                 <!-- .col-lg-4 end -->
@@ -141,5 +142,26 @@
 @section('page-script')
     <script>
         $('.contact-li').addClass('active');
+
+        $('.submit-contact').on('click', function(e) {
+            e.preventDefault();
+
+            let formData = new FormData($('#contact-form')[0]);
+
+            $.ajax({
+                url: 'post-contact',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    alert('Your inquiry send successfully');
+                    location.reload();
+                },
+                error: function(status, jqXHR, error) {
+                    alert('Something went wrong');
+                }
+            })
+        });
     </script>
 @endsection
