@@ -2,7 +2,7 @@
 @section('content')
     <section id="page-title" class="page-title bg-overlay bg-overlay-dark bg-parallax">
         <div class="bg-section">
-            <img src="assets/images/page-titles/7.jpg" alt="Background" />
+            <img src="assets/images/contact/contact-us-banner.png" alt=" Contact Us Banner" />
         </div>
         <div class="container">
             <div class="row">

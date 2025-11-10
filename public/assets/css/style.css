@@ -1410,15 +1410,15 @@ blockquot {
 
 /* Button Primary */
 .btn--primary {
-	background-color: #0A1F44;
-	color: #ffffff;
-	border: 2px solid #0A1F44;
+	background-color: #0A1F44 !important;
+	color: #ffffff !important;
+	border: 2px solid #0A1F44 !important;
 }
 
 .btn--primary:active,
 .btn--primary:focus,
 .btn--primary:hover {
-	background-color: #fff;
+	background-color: #fff !important;
 	color: #0a1f44 !important;
 	border-color: #0a1f44 !important;
 }
@@ -1426,7 +1426,7 @@ blockquot {
 .btn--primary.btn--inverse:active,
 .btn--primary.btn--inverse:focus,
 .btn--primary.btn--inverse:hover {
-	background-color: #fff;
+	background-color: #fff !important;
 	color: #0a1f44 !important;
 	border-color: #0a1f44 !important;;
 }

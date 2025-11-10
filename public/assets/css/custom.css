@@ -1,5 +1,5 @@
 .navbar-brand .logo {
- width: 150px;
+    width: 150px;
 }
 
 .header .navbar {
@@ -17,11 +17,11 @@
 
 
 .homeService {
-    background-color:   #e7e7e763
+    background-color: #e7e7e763
 }
 
-.whyPartner  .feature-card .feature-card-icon i {
-   font-size: 36px;
+.whyPartner .feature-card .feature-card-icon i {
+    font-size: 36px;
 }
 
 .WhatSetsApart .info-card .info-card-step,
@@ -34,12 +34,12 @@
 
 }
 
-.footer--widget  ul {
+.footer--widget ul {
     padding-left: 0px;
     list-style: none;
 }
 
-.footer--widget  ul li {
+.footer--widget ul li {
     line-height: 27px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .serviceAbout .btn {
-    width: unset ;
+    width: unset;
     padding: 0 15px;
     color: #fff;
     background-color: #0a1f44 !important;
@@ -61,17 +61,20 @@
 }
 
 #business-models img {
-  transition: transform 0.4s ease;
+    transition: transform 0.4s ease;
 }
+
 #business-models img:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
+
 #business-models .row {
-  border-bottom: 1px solid #e9ecef;
-  padding-bottom: 2rem;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 2rem;
 }
+
 #business-models .row:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 #business-models h4 {
@@ -82,10 +85,76 @@
     border-radius: 50px;
 }
 
+.serviceSections p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
 
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
 
+/* Overlay for text slider */
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Slight dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.carousel-caption {
+    position: static;
+    text-align: center;
+    color: #fff;
+}
 
+.slide--bio {
+    font-size: 26px !important;
+    line-height: 1.5 !important;
+}
 
+.slide-action .btn {
+    margin-top: 20px;
+    padding: 0px 30px;
+}
 
+.btn-padding {
+    padding: 0px 30px;
+}
 
+.about-expetise li {
+    color: #fff;
+    font-size: 16px;
+}
+.about-heading .heading {
+    margin-bottom: 20px;
+}
+
+.pricing-panel {
+    background-color: #fff;
+}
+
+.pricing-panel .pricing--heading h4 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.pricing-panel .pricing--heading {
+  padding: 30px 30px 50px;
+}
+
+.pricing-panel .pricing--heading .pricing--desc {
+    color: #000 !important;
+}

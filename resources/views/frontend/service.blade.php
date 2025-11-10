@@ -36,10 +36,13 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="heading">
                              
-                                <h2 class="heading--title mb-4">End-to-End Solutions for Leisure Ventures</h2>
+                                <h2 class="heading--title mb-4">Turnkey Solutions for the Leisure & Entertainment Industry</h2>
                             </div>
                             <p class="feature-card-desc">
-We deliver everything you need to bring a leisure business to life—whether it's a single kiosk setup or a multi-million-dirham entertainment center.
+        At <b>Innovative Leisure</b>, we deliver <b>end-to-end</b> services for creating immersive, safe,
+         and profitable entertainment spaces. From concept development to ongoing operations, 
+         we provide <b>turnkey solutions</b> tailored to <b>family entertainment centers, adventure play zones,
+          trampoline parks, interactive experiences, social leisure venues, and restaurants.</b>
                             </p>
                             <a class="btn btn-sm btn--rounded" href="https://drive.google.com/file/d/1_G4fsG8aol2n43tpH_lehxW17Xrkq5xC/view?pli=1">Download Our Company Profile</a>
                         </div>
@@ -80,7 +83,9 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Advisory & Investment Modeling</h3>
-                            <p class="feature-card-desc">Strategic analysis to determine the optimal business model aligned with market opportunities and your investment criteria.</p>
+                            <p class="feature-card-desc">We provide <b>strategic advisory and business modelling</b> to determine
+                                 the optimal business structure for your project. By analyzing <b>market opportunities, audience insights, 
+                                 and investment criteria</b>, we help you build <b>profitable, sustainable, and future-ready leisure ventures</b></p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +97,9 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Location & ROI Planning</h3>
-                            <p class="feature-card-desc">Strategic site selection and detailed financial modelling designed to optimize location performance, reduce risk, and maximize return on investment.</p>
+                            <p class="feature-card-desc">Choosing the right location is critical. Our team conducts <b>strategic site selection,
+                                 feasibility studies, and detailed ROI modelling to maximize visitor traffic, reduce operational risk,
+                                  and ensure optimal returns </b></p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +110,9 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Design & Consultancy</h3>
-                            <p class="feature-card-desc">Comprehensive creative solutions from concept development to BIM-integrated technical documentation and high-impact visualizations</p>
+                            <p class="feature-card-desc">From <b>concept design to technical documentation</b>, we provide <b>creative, practical, and immersive solutions </b>.
+                            We ensure your leisure space is <b>visually stunning, 
+                                safe, and operationally efficient </b></p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +123,8 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Civil Works</h3>
-                            <p class="feature-card-desc">Expert civil works execution delivering high-quality foundations, concrete structures, and structural elements with precision engineering</p>
+                            <p class="feature-card-desc">Our expert team executes <b>civil works with precision</b>, including <b>foundations, concrete structures, and structural elements.</b>
+                                 We prioritize <b>high-quality construction and durability</b>, providing a <b>solid base for all attractions and installations.</b></p>
                         </div>
                     </div>
                 </div>
@@ -125,7 +135,8 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">MEP Works</h3>
-                            <p class="feature-card-desc">Integrated mechanical, electrical, and plumbing solutions including HVAC systems, designed and installed to international standards for efficiency and reliability.</p>
+                            <p class="feature-card-desc">We provide <b>integrated mechanical, electrical, and plumbing solutions </b>, covering <b>HVAC systems, energy optimization, and regulatory compliance.</b>
+                                 Every system is <b>designed and installed to international standards</b>, ensuring <b>efficiency, safety, and reliability.</b></p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +147,8 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Fit-out Works</h3>
-                            <p class="feature-card-desc">Bespoke interior fit-outs with premium partitions, high-end finishing, and specialized installations that create immersive, brand-focused spaces.</p>
+                            <p class="feature-card-desc">We deliver <b>bespoke interior fit-outs</b> that bring your vision to life. Our services include <b>premium partitions, high-end finishes,
+                                 specialized installations, and themed décor</b>, creating <b>immersive brand-focused environments </b>that delight visitors.</p>
                         </div>
                     </div>
                 </div>
@@ -147,7 +159,8 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Supply & Installation</h3>
-                            <p class="feature-card-desc">End-to-end supply and installation services ensuring every component meets the highest standards of quality, safety, and performance.</p>
+                            <p class="feature-card-desc">Our <b>turnkey supply and installation services</b> cover <b>play equipment, interactive systems, trampolines, climbing walls, ziplines, and café installations.</b>
+                                 We ensure <b>all components meet the highest quality, safety, and performance standards.</b></p>
                         </div>
                     </div>
                 </div>
@@ -158,7 +171,7 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Operation & Maintenance</h3>
-                            <p class="feature-card-desc">Comprehensive operation and maintenance services designed to maximize the longevity, safety, and performance of leisure assets.</p>
+                            <p class="feature-card-desc">We provide <b>comprehensive operational support and maintenance</b> to maximize the <b>lifespan, safety, and performance</b> of your leisure assets. </p>
                         </div>
                     </div>
                     
@@ -170,7 +183,8 @@ We deliver everything you need to bring a leisure business to life—whether it'
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Revenue-based Partnership</h3>
-                            <p class="feature-card-desc">Optional ongoing collaboration with performance-based incentives designed to align with and drive your venture’s success.</p>
+                            <p class="feature-card-desc">For clients seeking <b>long-term collaboration</b>, we offer <b>performance-based partnership models</b> that <b>align incentives with the success of your venture. </b>
+                                This ensures <b>shared goals, sustained growth, and measurable ROI </b></p>
                         </div>
                     </div>
                     
@@ -181,6 +195,81 @@ We deliver everything you need to bring a leisure business to life—whether it'
         <!-- .container end -->
     </section>
     <!-- #featured1 end -->
+
+       <section id="cta1" class="cta cta-1 bg-theme">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="text-center">Ready to Bring Your Leisure Project to Life?</h3>
+                    <!--<p class="text-center">Discover investor-ready business models with validated ROI metrics, designed for Dubai’s thriving leisure market.</p>-->
+                   
+                </div>
+                <!-- .col-lg-9 -->
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                         <a href="#" class="btn btn--white btn--bordered btn--rounded">Contact Us to Discuss Your Project </a>
+                </div>
+                <!-- .col-lg-3 -->
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
+    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading--title mb-5">Our Core Values</h2>
+            </div>
+            <div class="row">
+                 
+              
+                <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="feature-card">
+                        <div class="feature-card-icon">
+                             <i> <img src="assets/images/home/transparency.png" alt="transparency"></i>
+                        </div>
+                        <div class="feature-card-content">
+                            <h3 class="feature-card-title">Transparency</h3>
+                            <p class="feature-card-desc">Transparent investor access to comprehensive performance data for informed decision-making and portfolio oversight.</p>
+                        </div>
+                    </div>
+                    .
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="feature-card">
+                        <div class="feature-card-icon">
+                            <i> <img src="assets/images/home/integrity.png" alt="integrity"></i>
+                        </div>
+                        <div class="feature-card-content">
+                            <h3 class="feature-card-title">Integrity</h3>
+                            <p class="feature-card-desc">Ensuring reliable, accountable delivery of promised returns for maximum investor confidence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="feature-card">
+                        <div class="feature-card-icon">
+                            <i> <img src="assets/images/home/innovation.png" alt="innovation"></i>
+                        </div>
+                        <div class="feature-card-content">
+                            <h3 class="feature-card-title">Innovation</h3>
+                            <p class="feature-card-desc">Innovative, market-driven concepts tailored to evolving industry trends and customer needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="feature-card">
+                        <div class="feature-card-icon">
+                           <i> <img src="assets/images/home/partnership.png" alt="partnership"></i>
+                        </div>
+                        <div class="feature-card-content">
+                            <h3 class="feature-card-title">Partnership</h3>
+                            <p class="feature-card-desc">Driving shared success through strategic, long-term collaboration and partnership.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 @section('page-script')
     <script>
