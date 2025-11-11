@@ -116,6 +116,7 @@
                         <div class="slide-action">
 							<!-- <a class="btn btn--white btn--bordered btn--rounded" href="services">Our Services</a> -->
  						</div>
+                   
                         </div>
                     </li>
                    <li data-transition="zoomout"
@@ -172,6 +173,7 @@
                         <div class="slide-action">
 							<a class="btn btn--white btn--bordered btn--rounded" href="services">Business Models</a>
  						</div>
+                         
                         </div>
                     </li>
 
