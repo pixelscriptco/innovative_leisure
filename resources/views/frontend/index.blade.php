@@ -4,18 +4,20 @@
         <div class="rev_slider_wrapper">
             <div id="slider1" class="rev_slider" data-version="5.0">
                 <ul>
-                       <li data-transition="zoomout"
+                    <li data-transition="zoomout"
                         data-slotamount="default"
                         data-easein="Power4.easeInOut"
                         data-easeout="Power4.easeInOut"
                         data-masterspeed="2000">
-                        <video autoplay muted loop playsinline preload="auto" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+                        <video autoplay muted loop playsinline preload="auto"
+                               style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
                             <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
-                          
+
                             Your browser does not support the video tag.
                         </video>
 
-                        <div class="video-overlay" style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
+                        <div class="video-overlay"
+                             style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
                         <div class="tp-caption"
                              data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
                              data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-5','10']"
@@ -185,14 +187,15 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="row">
-                         <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row whatWedoSection">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
                                          <img src="assets/images/home/what-we-do.png" alt="banner img"  >
                                     </div>
                                 </div>
-                       
                             </div>
+
+                        </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="heading">
                                 <!--<p class="heading--subtitle">Who Are We?</p>-->
@@ -212,20 +215,20 @@
                                 <p>From <b>concept design to installation and ongoing support</b>, we handle every detail ensuring safety, creativity, and long-term performance</p>
 
                         </div>
-                       
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
-        <section id="featured1" class="featured featured-1 homeService text-center pt-110">
+    <section id="featured1" class="featured featured-1 homeService text-center pt-110">
         <div class="container">
             <div class="row ">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                     <div class="heading  mb-50 text--center">
-                        
+
                         <h2 class="heading--title">Our Services</h2>
                         <p class="heading--desc mb-0">End-to-End Solutions for Leisure Ventures</p>
                     </div>
@@ -235,7 +238,8 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/advisory_ business_modelling.png" alt="advisory_ business_modelling"></i>
+                            <i> <img src="assets/images/home/advisory_ business_modelling.png"
+                                     alt="advisory_ business_modelling"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Advisory & Business Modelling</h3>
@@ -243,15 +247,17 @@
                         </div>
                     </div>
                 </div>
-              
+
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                             <i> <img src="assets/images/home/location_planning.png" alt="location_planning"></i>
+                            <i> <img src="assets/images/home/location_planning.png" alt="location_planning"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Location & ROI Planning</h3>
-                            <p class="feature-card-desc">Strategic site selection and detailed financial modelling designed to optimize location performance, reduce risk, and maximize return on investment.</p>
+                            <p class="feature-card-desc">Strategic site selection and detailed financial modelling
+                                designed to optimize location performance, reduce risk, and maximize return on
+                                investment.</p>
                         </div>
                     </div>
                 </div>
@@ -262,51 +268,58 @@
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Design & Consultancy</h3>
-                            <p class="feature-card-desc">Comprehensive creative solutions from concept development to BIM-integrated technical documentation and high-impact visualizations</p>
+                            <p class="feature-card-desc">Comprehensive creative solutions from concept development to
+                                BIM-integrated technical documentation and high-impact visualizations</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                             <i> <img src="assets/images/home/civil_works.png" alt="civil_works"></i>
+                            <i> <img src="assets/images/home/civil_works.png" alt="civil_works"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Civil Works</h3>
-                            <p class="feature-card-desc">Expert civil works execution delivering high-quality foundations, concrete structures, and structural elements with precision engineering</p>
+                            <p class="feature-card-desc">Expert civil works execution delivering high-quality
+                                foundations, concrete structures, and structural elements with precision engineering</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                             <i> <img src="assets/images/home/mep_works.png" alt="mep_works"></i>
+                            <i> <img src="assets/images/home/mep_works.png" alt="mep_works"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">MEP Works</h3>
-                            <p class="feature-card-desc">Integrated mechanical, electrical, and plumbing solutions including HVAC systems, designed and installed to international standards for efficiency and reliability.</p>
+                            <p class="feature-card-desc">Integrated mechanical, electrical, and plumbing solutions
+                                including HVAC systems, designed and installed to international standards for efficiency
+                                and reliability.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                             <i> <img src="assets/images/home/fit_out_works.png" alt="fit_out_works"></i>
+                            <i> <img src="assets/images/home/fit_out_works.png" alt="fit_out_works"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Fit-out Works</h3>
-                            <p class="feature-card-desc">Bespoke interior fit-outs with premium partitions, high-end finishing, and specialized installations that create immersive, brand-focused spaces.</p>
+                            <p class="feature-card-desc">Bespoke interior fit-outs with premium partitions, high-end
+                                finishing, and specialized installations that create immersive, brand-focused
+                                spaces.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                           <i> <img src="assets/images/home/supply_installation.png" alt="supply_installation"></i>
+                            <i> <img src="assets/images/home/supply_installation.png" alt="supply_installation"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Supply & Installation</h3>
-                            <p class="feature-card-desc">End-to-end supply and installation services ensuring every component meets the highest standards of quality, safety, and performance.</p>
+                            <p class="feature-card-desc">End-to-end supply and installation services ensuring every
+                                component meets the highest standards of quality, safety, and performance.</p>
                         </div>
                     </div>
                 </div>
@@ -317,30 +330,33 @@
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Operation & Maintenance</h3>
-                            <p class="feature-card-desc">Comprehensive operation and maintenance services designed to maximize the longevity, safety, and performance of leisure assets.</p>
+                            <p class="feature-card-desc">Comprehensive operation and maintenance services designed to
+                                maximize the longevity, safety, and performance of leisure assets.</p>
                         </div>
                     </div>
-                    
+
                 </div>
-                 <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                             <i> <img src="assets/images/home/revenue_based_partnership.png" alt="revenue_based_partnership"></i>
+                            <i> <img src="assets/images/home/revenue_based_partnership.png"
+                                     alt="revenue_based_partnership"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Revenue-based Partnership</h3>
-                            <p class="feature-card-desc">Optional ongoing collaboration with performance-based incentives designed to align with and drive your venture’s success.</p>
+                            <p class="feature-card-desc">Optional ongoing collaboration with performance-based
+                                incentives designed to align with and drive your venture’s success.</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <!-- .row end -->
-            <!-- <div class="row ">
+        <!-- <div class="row ">
                 <div class="col-sm-12 col-md-12 col-lg-12 text--center">
                     <a href="{{ url('services') }}" class="btn btn--primary btn--rounded">Get Started</a>
                 </div> -->
-                <!-- .col-lg-12 end -->
+            <!-- .col-lg-12 end -->
             <!-- </div> -->
             <!-- .row end -->
 
@@ -348,20 +364,20 @@
         <!-- .container end -->
     </section>
 
- 
 
- 
-    
-  
-        <section id="infoCards" class="info-cards WhatSetsApart pt-80 ">
+
+
+
+
+    <section id="infoCards" class="info-cards WhatSetsApart pt-80 ">
         <div class="container">
-             <div class="heading">
+            <div class="heading">
                 <h2 class="heading--title mb-5 text-center">What Sets Us Apart</h2>
             </div>
-            
-        
+
+
             <div class="row">
-                
+
                 <!-- .col-lg-4 end -->
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="info-card">
@@ -370,11 +386,13 @@
 
 
                             <h3 class="info-card-title">Your Turnkey Partner</h3>
-                            <p class="info-card-desc">We transform leisure business ideas into profitable operations.</p>
+                            <p class="info-card-desc">We transform leisure business ideas into profitable
+                                operations.</p>
                         </div>
                     </div>
                     <!-- .info-card end -->
-                </div><div class="col-sm-12 col-md-12 col-lg-4">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="info-card">
                         <div class="info-card-step">02.</div>
                         <div class="info-card-content">
@@ -402,13 +420,18 @@
         </div>
         <!-- .container end -->
     </section>
-        <section id="featured3" class="featured featured-2 whyPartner featured-3 featured-left bg-dark3 pt-0 pb-0">
+    <section id="featured3" class="featured featured-2 whyPartner featured-3 featured-left bg-dark3 pt-0 pb-0">
         <div class="container-fluid pr-0 pl-0">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-content">
                     <div class="heading">
                         <h2 class="heading--title color-white">Why Partner With Us</h2>
-                        <p class="heading--desc color-white">At Innovative Leisure, our experienced and multidisciplinary team is dedicated to delivering comprehensive 360° turnkey solutions for leisure facilities. We specialize in providing top-notch technical services, facility management, maintenance, and engineering to ensure your projects are executed seamlessly and efficiently. Trusted by clients across UAE and KSA, we pride ourselves on our proven project references and commitment to excellence in every aspect of our service.</p>
+                        <p class="heading--desc color-white">At Innovative Leisure, our experienced and
+                            multidisciplinary team is dedicated to delivering comprehensive 360° turnkey solutions for
+                            leisure facilities. We specialize in providing top-notch technical services, facility
+                            management, maintenance, and engineering to ensure your projects are executed seamlessly and
+                            efficiently. Trusted by clients across UAE and KSA, we pride ourselves on our proven project
+                            references and commitment to excellence in every aspect of our service.</p>
                     </div>
                     <div class="feature-card wow fadeInUp" data-wow-delay="100ms">
                         <div class="feature-card-icon">
@@ -416,7 +439,7 @@
                         </div>
                         <div class="feature-card-content">
                             <p class="feature-card-title">Access to detailed business plans and financial forecasts</p>
-                          
+
                         </div>
                     </div>
                     <div class="feature-card wow fadeInUp" data-wow-delay="200ms">
@@ -425,7 +448,7 @@
                         </div>
                         <div class="feature-card-content">
                             <p class="feature-card-title">Site selection and setup assistance</p>
-                            
+
                         </div>
                     </div>
                     <div class="feature-card wow fadeInUp" data-wow-delay="300ms">
@@ -434,7 +457,7 @@
                         </div>
                         <div class="feature-card-content">
                             <p class="feature-card-title">Operational training and ongoing support</p>
-                           
+
                         </div>
                     </div>
                     <div class="feature-card wow fadeInUp" data-wow-delay="400ms">
@@ -442,8 +465,8 @@
                             <i class="icon-lifesaver"></i>
                         </div>
                         <div class="feature-card-content">
-                               <p class="feature-card-title">Scalable franchise models with multiple revenue streams</p>
-                            
+                            <p class="feature-card-title">Scalable franchise models with multiple revenue streams</p>
+
                         </div>
                     </div>
                     <div class="feature-card wow fadeInUp" data-wow-delay="500ms">
@@ -451,8 +474,8 @@
                             <i class="icon-lifesaver"></i>
                         </div>
                         <div class="feature-card-content">
-                              <p class="feature-card-title">Experienced team with proven success stories</p>
-                     
+                            <p class="feature-card-title">Experienced team with proven success stories</p>
+
                         </div>
                     </div>
                     <!-- feature-card end -->
@@ -469,15 +492,18 @@
         </div>
         <!-- .container end -->
     </section>
-        <section id="case" class="case case-standard case-3col pt-110 bg-gray">
-    <div class="container">
-        <div class="row flipInX" data-wow-delay="100ms">
-            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-                <div class="heading heading-2 mb-30 text--center">
-                    
-                    <h2 class="heading--title">Our Projects</h2>
-                    <p class="heading--desc mb-0">We monitor the spectrum of available business investment and alert our users to market moving events as and when it happens.</p>
+    {{--<section id="case" class="case case-standard case-3col pt-110 bg-gray">
+        <div class="container">
+            <div class="row flipInX" data-wow-delay="100ms">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <div class="heading heading-2 mb-30 text--center">
+
+                        <h2 class="heading--title">Our Projects</h2>
+                        <p class="heading--desc mb-0">We monitor the spectrum of available business investment and alert
+                            our users to market moving events as and when it happens.</p>
+                    </div>
                 </div>
+                <!-- .col-lg-6 end -->
             </div>
             <!-- .col-lg-6 end -->
         </div>
@@ -495,9 +521,8 @@
                         <div class="case--action">
                             <a href="#" title="case Item"></a>
                         </div>
-                        <!-- .case-action end -->
+                        <!-- .row end -->
                     </div>
-                    <!-- .case-hover end -->
                 </div>
                 <!-- .case-img end -->
                 <div class="case--content">
@@ -659,7 +684,7 @@
 
 
 
-       <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 bg-gray">
+    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -688,23 +713,35 @@
                                 </div>
                               
                             </div>
+                            <!--<div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="200ms">-->
+                            <!--    <div class="info-card">-->
+                            <!--        <div class="info-card-step">02.</div>-->
+                            <!--        <div class="info-card-content">-->
+                            <!--            <h3 class="info-card-title">Our Mission</h3>-->
+                            <!--            <p class="info-card-desc">To deliver market-fit, ROI-driven leisure-->
+                            <!--                businesses with full investor transparency and trusted execution.</p>-->
+                            <!--        </div>-->
+                            <!--    </div>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-       <section id="cta1" class="cta cta-1 bg-theme">
+    <section id="cta1" class="cta cta-1 bg-theme">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <h3 class="text-center">Innovation Starts Here — Explore Our Concepts</h3>
                     <!--<p class="text-center">Discover investor-ready business models with validated ROI metrics, designed for Dubai’s thriving leisure market.</p>-->
-                   
+
                 </div>
                 <!-- .col-lg-9 -->
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                         <a href="{{ url('services') }}" class="btn btn--white btn--bordered btn--rounded">Look Through Our Business Models</a>
+                    <a href="{{ url('services') }}" class="btn btn--white btn--bordered btn--rounded">Look Through Our
+                        Business Models</a>
                 </div>
                 <!-- .col-lg-3 -->
             </div>
@@ -718,16 +755,17 @@
                 <h2 class="heading--title mb-5">Our Core Values</h2>
             </div>
             <div class="row">
-                 
-              
+
+
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                             <i> <img src="assets/images/home/transparency.png" alt="transparency"></i>
+                            <i> <img src="assets/images/home/transparency.png" alt="transparency"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Transparency</h3>
-                            <p class="feature-card-desc">Transparent investor access to comprehensive performance data for informed decision-making and portfolio oversight.</p>
+                            <p class="feature-card-desc">Transparent investor access to comprehensive performance data
+                                for informed decision-making and portfolio oversight.</p>
                         </div>
                     </div>
                     .
@@ -739,7 +777,8 @@
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Integrity</h3>
-                            <p class="feature-card-desc">Ensuring reliable, accountable delivery of promised returns for maximum investor confidence.</p>
+                            <p class="feature-card-desc">Ensuring reliable, accountable delivery of promised returns for
+                                maximum investor confidence.</p>
                         </div>
                     </div>
                 </div>
@@ -750,18 +789,20 @@
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Innovation</h3>
-                            <p class="feature-card-desc">Innovative, market-driven concepts tailored to evolving industry trends and customer needs.</p>
+                            <p class="feature-card-desc">Innovative, market-driven concepts tailored to evolving
+                                industry trends and customer needs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                           <i> <img src="assets/images/home/partnership.png" alt="partnership"></i>
+                            <i> <img src="assets/images/home/partnership.png" alt="partnership"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Partnership</h3>
-                            <p class="feature-card-desc">Driving shared success through strategic, long-term collaboration and partnership.</p>
+                            <p class="feature-card-desc">Driving shared success through strategic, long-term
+                                collaboration and partnership.</p>
                         </div>
                     </div>
                 </div>
@@ -769,7 +810,7 @@
         </div>
     </section>
 
- 
+
 
 
 @endsection
