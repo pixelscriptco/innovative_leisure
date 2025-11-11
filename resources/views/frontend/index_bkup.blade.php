@@ -29,7 +29,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
-                            <div class="slide--headline">INVEST... <span class="font-40">INNOVATE... INSPIRE...</span>
+                            <div class="slide--headline">Invest. <span class="font-40">Innovate. Inspire.</span>
                             </div>
                         </div>
                         <div class="tp-caption"
@@ -43,11 +43,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
-                            <div class="slide--bio">With the UAE’s growing demand for leisure and entertainment,the most
-                                reliable way to secure strong returns is by investing in proven business models that
-                                bring people joy,<br> connection, and a break from the mechanical world.
-                                At Innovative Leisure, our experienced team curates<br> investor-ready concepts in
-                                leisure and entertainment designed for guaranteed growth.
+                            <div class="slide--bio" >Invest in world-class leisure and entertainment ventures <br> with a turnkey solutions partner you can trust.
                             </div>
                         </div>
                         <div class="tp-caption"
@@ -61,15 +57,23 @@
                              data-splitout="none"
                              data-responsive_offset="on"
                         >
+                        <div class="slide-action">
+							<a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">Our Services</a>
+ 						</div>
                         </div>
                     </li>
-                    <li data-transition="zoomout"
+                  <li data-transition="zoomout"
                         data-slotamount="default"
                         data-easein="Power4.easeInOut"
                         data-easeout="Power4.easeInOut"
                         data-masterspeed="2000">
-                        <img src="assets/images/sliders/slide-bg/1.jpg" alt="Slide Background Image" width="1920"
-                             height="1280">
+                        <video autoplay muted loop playsinline preload="auto" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+                            <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
+
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div class="video-overlay" style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
                         <div class="tp-caption"
                              data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
                              data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-5','10']"
@@ -81,7 +85,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
-                            <div class="slide--headline">INVEST... <span class="font-40">INNOVATE... INSPIRE...</span>
+                            <div class="slide--headline"><span class="font-40">Invest.</span> Innovate.<span class="font-40"> Inspire.</span>
                             </div>
                         </div>
                         <div class="tp-caption"
@@ -95,11 +99,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
-                            <div class="slide--bio">With the UAE’s growing demand for leisure and entertainment,the most
-                                reliable way to secure strong returns is by investing in proven business models that
-                                bring people joy,<br> connection, and a break from the mechanical world.
-                                At Innovative Leisure, our experienced team curates<br> investor-ready concepts in
-                                leisure and entertainment designed for guaranteed growth.
+                            <div class="slide--bio" >Innovating immersive attractions through creative design,<br> smart technology, and seamless execution.
                             </div>
                         </div>
                         <div class="tp-caption"
@@ -113,104 +113,50 @@
                              data-splitout="none"
                              data-responsive_offset="on"
                         >
-                            {{--                            <div class="slide-action">--}}
-                            {{--                                <a class="btn btn--gradient btn--rounded mr-30" href="{{ url('service') }}">Our--}}
-                            {{--                                    Services</a>--}}
-                            {{--                            </div>--}}
+                        <div class="slide-action">
+							<!-- <a class="btn btn--white btn--bordered btn--rounded" href="services">Our Services</a> -->
+ 						</div>
+
                         </div>
                     </li>
-                    <li data-transition="zoomin"
+                   <li data-transition="zoomout"
                         data-slotamount="default"
                         data-easein="Power4.easeInOut"
                         data-easeout="Power4.easeInOut"
                         data-masterspeed="2000">
-                        <img src="assets/images/sliders/slide-bg/2.jpg" alt="Slide Background Image" width="1920"
-                             height="1280">
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['-13','-13','-13','10']"
-                             data-fontsize="['60', '50', '40', '30']"
-                             data-lineheight="['60','60','60','60']"
-                             data-width="none"
-                             data-height="none"
-                             data-transform_idle="o:1;"
-                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--headline"><span class="font-40">INVEST...</span> INNOVATE... <span
-                                    class="font-40">INSPIRE...</span></div>
-                        </div>
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']"
-                             data-fontsize="['16', '16', '16', '12']"
-                             data-lineheight="['60','60','60','60']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":1250,"speed":1500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--bio">Every successful venture requires more than just an idea — it needs
-                                structure, development, and execution.<br> Our 9-step execution path ensures every
-                                business model is carefully crafted, market-focused, and future-ready.<br>
-                                From concept development to operations, we integrate innovation at every stage to
-                                deliver projects that resonate with today’s evolving trends.
-                            </div>
-                        </div>
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['176','176','200','210']"
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on"
-                        >
-                            {{--                            <div class="slide-action">--}}
-                            {{--                                <a class="btn btn--primary btn--bordered btn--rounded" href="#">Get Started</a>--}}
-                            {{--                            </div>--}}
-                        </div>
-                    </li>
-                    <li data-transition="slideoverleft"
-                        data-slotamount="default"
-                        data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut"
-                        data-masterspeed="2000">
-                        <img src="assets/images/sliders/slide-bg/3.jpg" alt="Slide Background Image" width="1920"
-                             height="1280">
+                        <video autoplay muted loop playsinline preload="auto" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+                            <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
+
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div class="video-overlay" style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
                         <div class="tp-caption"
                              data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
                              data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-5','10']"
                              data-fontsize="['60', '50', '40', '30']"
-                             data-lineheight="['6','60','60','60']"
+                             data-lineheight="['60','60','60','60']"
                              data-width="none"
                              data-height="none"
-                             data-transform_idle="o:1;"
                              data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
-                            <div class="slide--headline"><span class="font-40">INVEST... INNOVATE...</span> INSPIRE...
+                            <div class="slide--headline"><span class="font-40">Invest. Innovate. </span> Inspire.
                             </div>
                         </div>
                         <div class="tp-caption"
                              data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
                              data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']"
                              data-fontsize="['16', '16', '16', '12']"
-                             data-lineheight="['60','60','60','60']"
+                             data-lineheight="['25','25','25','25']"
                              data-width="none"
                              data-height="none"
-                             data-frames='[{"delay":1250,"speed":1500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":1250,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
-                            <div class="slide--bio">Beyond returns, every venture you build is a story — one that
-                                inspires entrepreneurs,<br> nurtures talent, and shapes the future of leisure.<br> With
-                                Innovative Leisure, you create more than a business; you create a legacy.
+                            <div class="slide--bio" >Inspiring growth through strategic partnerships and scalable <br> business models in leisure and entertainment.
                             </div>
                         </div>
                         <div class="tp-caption"
@@ -219,16 +165,18 @@
                              data-width="none"
                              data-height="none"
                              data-whitespace="nowrap"
-                             data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
                         >
-                            {{--                            <div class="slide-action">--}}
-                            {{--                                <a class="btn btn--white btn--bordered btn--rounded" href="#">Get Started</a>--}}
-                            {{--                            </div>--}}
+                        <div class="slide-action">
+							<a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">Business Models</a>
+ 						</div>
+
                         </div>
                     </li>
+
 
                 </ul>
             </div>
@@ -236,7 +184,7 @@
         </div>
         <!-- END OF SLIDER WRAPPER -->
     </section>
-    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100">
+          <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 pb-100">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -244,7 +192,8 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row whatWedoSection">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/about/about.png" alt="banner img">
+                                         <img src="assets/images/home/what-we-do.png" alt="banner img"  >
+                                    </div>
                                 </div>
                             </div>
 
@@ -255,13 +204,18 @@
                                 <h2 class="heading--title mb-4">What We Do</h2>
                             </div>
                             <p class="feature-card-desc">
-                                At Innovative Leisure, we go beyond investments, we deliver complete turnkey solutions
-                                for the leisure and entertainment industry. From curating investor-ready opportunities
-                                to developing, structuring, and operating ventures, we manage every step of the journey.
-                                Our expertise ensures that each project is not only financially sound but also
-                                strategically designed, executed, and positioned for long-term success. With us, you
-                                don’t just invest in a business - you invest in a fully realized vision.
-                            </p>
+                                <p>We provide <b>turnkey solutions for the leisure and entertainment industry</b>, creating spaces that inspire play, adventure, and connection</p>
+                                <p>Our expertise includes:</p>
+                                <p><b>Soft Play Zones</b> – Safe, themed, and interactive environments for children.</p>
+                                <p><b>Trampoline Parks</b> – High-energy spaces that blend fun and fitness.</p>
+                                <p><b>Climbing Walls & Ziplines</b> – Adventure-based attractions for all ages.</p>
+                                <p><b>Family Entertainment Centers (FECs)</b> – Complete destinations combining play, learning, and excitement.</p>
+                                <p><b>Interactive Experiences </b> – Engaging tech-driven activities that keep guests coming back. </p>
+                                <p><b>Social Entertainment Venues</b> – Innovative concepts for dining, games, and gatherings.</p>
+                                <p><b>Restaurants & Cafes</b> – Curated dining experiences to complement entertainment destinations.</p>
+
+                                <p>From <b>concept design to installation and ongoing support</b>, we handle every detail ensuring safety, creativity, and long-term performance</p>
+
                         </div>
 
                     </div>
@@ -290,9 +244,8 @@
                                      alt="advisory_ business_modelling"></i>
                         </div>
                         <div class="feature-card-content">
-                            <h3 class="feature-card-title">Advisory & Investment Modeling</h3>
-                            <p class="feature-card-desc">Strategic analysis to determine the optimal business model
-                                aligned with market opportunities and your investment criteria.</p>
+                            <h3 class="feature-card-title">Advisory & Business Modelling</h3>
+                            <p class="feature-card-desc">Strategic analysis to determine the optimal business model aligned with market opportunities and your investment criteria.</p>
                         </div>
                     </div>
                 </div>
@@ -403,7 +356,7 @@
             <!-- .row end -->
         <!-- <div class="row ">
                 <div class="col-sm-12 col-md-12 col-lg-12 text--center">
-                    <a href="{{ url('services') }}" class="btn btn--primary btn--rounded">Get Started</a>
+                    <a href="{{ url('service') }}" class="btn btn--primary btn--rounded">Get Started</a>
                 </div> -->
             <!-- .col-lg-12 end -->
             <!-- </div> -->
@@ -532,7 +485,7 @@
                 <!-- .col-lg-6 end -->
                 <div class="col-sm-12 col-md-12 col-lg-6 pr-0">
                     <div class="banner--img">
-                        <img src="assets/images/home/whytochoose.jpg" alt="banner img">
+                        <img src="assets/images/home/why-partner-with-us.png" alt="banner img">
                     </div>
                 </div>
                 <!-- .col-lg-6 end -->
@@ -554,257 +507,181 @@
                 </div>
                 <!-- .col-lg-6 end -->
             </div>
-            <!-- .row end -->
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="case-carousel-grid">
-                        <div class="row">
-                            <!-- Case #1 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/about/about.png" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Business Tips</a><a href="#">Consulting</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="case-study-single.html">Grow your business with an unexpected
-                                                    niche!</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #2 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-Investment">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/about/about.png" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Investment</a><a href="#">Tips</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="case-study-single.html">Use credit reporting to improve client
-                                                    relationships.</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #3 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips filter-Consulting">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/case/3col/3.jpg" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Customer Service</a><a href="#">Consulting</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="case-study-single.html">State stamp duty surcharges for foreign
-                                                    buyers.</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #4 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-environment filter-Consulting">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/case/3col/4.jpg" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Environment </a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="case-study-single.html">Government changes on transfer of land
-                                                    or duty. </a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #5 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/case/3col/5.jpg" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Business Growth</a><a href="#">Investment</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="case-study-single.html">How to explain the ASIC inquiry to
-                                                    clients!</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #6 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-consulting">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/case/3col/6.jpg" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Financial Services</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="case-study-single.html">How blockchain technology will impact
-                                                    the broking?</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
+            <!-- .col-lg-6 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+               <div class="case-carousel-grid">
+    <div class="row">
+        <!-- Case #1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">
+            <div class="case-item-container">
+                <div class="case--img">
+                    <img src="assets/images/home/project-1.png" alt="case Item">
+                    <div class="case--hover">
+                        <div class="case--action">
+                            <a href="#" title="case Item"></a>
                         </div>
                         <!-- .row end -->
                     </div>
                 </div>
-            </div>
-            <!-- .row end -->
-        </div>
-        <!-- .container end -->
-    </section>
-    <section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
-        <div class="bg-section">
-            <img src="assets/images/background/2.jpg" alt="background">
-        </div>
-        <div class="container">
-            <div class="row clearfix">
-                <div class="col-sm-12 col-md-12 col-lg-6 offset-md-3">
-                    <div class="heading heading-1 text--center mb-40">
-                        <h2 class="heading--title text-white">Our Pricing Plans</h2>
-                        <p class="heading--desc heading--light mb-0 color-white">
-                            Get started now with us to earn every day and forever in your business. We accept Investment
-                            from all over the world.
-                        </p>
+                <!-- .case-img end -->
+                <div class="case--content">
+                    <!-- <div class="case--cat">
+                        <a href="#">Business Tips</a><a href="#">Consulting</a>
+                    </div> -->
+                    <div class="case--title">
+                        <h4><a href="case-study-single.html">Soft Play & Interactives Supply & Installation</a></h4>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="container pt-40">
-            <div class="row">
-
-                <!-- Pricing Package #1 -->
-                <div class="col-sm-12 col-md-4 col-lg-4 price-table">
-                    <div class="pricing-panel">
-                        <div class="pricing--icon mb-3">
-                            <img src="assets/images/about/about.png" alt="Starter Plan Icon"
-                                 class="img-fluid w-100 rounded-3">
+        <!-- . case-item end -->
+        <!-- Case #2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-Investment">
+            <div class="case-item-container">
+                <div class="case--img">
+                    <img src="assets/images/home/project-2.png" alt="case Item">
+                    <div class="case--hover">
+                        <div class="case--action">
+                            <a href="#" title="case Item"></a>
                         </div>
-                        <div class="pricing--heading text--center">
-
-                            <h4>Starter Plan</h4>
-                            <p><span class="currency">$</span>125</p>
-                            <div class="pricing--desc">
-                                Full Business analyzing, next generation accounting, and training sessions.
-                            </div>
-                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2" href="#">Get Started</a>
-                        </div>
+                        <!-- .case-action end -->
+                    </div>
+                    <!-- .case-hover end -->
+                </div>
+                <!-- .case-img end -->
+                <div class="case--content">
+                    <!-- <div class="case--cat">
+                        <a href="#">Investment</a><a href="#">Tips</a>
+                    </div> -->
+                    <div class="case--title">
+                        <h4><a href="case-study-single.html">Family Entertainment Center Concept Development</a></h4>
                     </div>
                 </div>
-
-                <!-- Pricing Package #2 -->
-                <div class="col-sm-12 col-md-4 col-lg-4 price-table pricing-active">
-                    <div class="pricing-panel">
-                        <div class="pricing--heading text--center">
-                            <div class="pricing--icon mb-3">
-                                <img src="assets/images/icons/basic.png" alt="Basic Plan Icon"
-                                     class="img-fluid w-100 rounded-3">
-                            </div>
-                            <h4>Basic Plan</h4>
-                            <p><span class="currency">$</span>165</p>
-                            <div class="pricing--desc">
-                                Full Business analyzing, next generation accounting, and training sessions.
-                            </div>
-                            <a class="btn btn--white btn--bordered btn--rounded mt-2" href="#">Get Started</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Pricing Package #3 -->
-                <div class="col-sm-12 col-md-4 col-lg-4 price-table">
-                    <div class="pricing-panel">
-                        <div class="pricing--heading text--center">
-                            <div class="pricing--icon mb-3">
-                                <img src="assets/images/icons/advanced.png" alt="Advanced Plan Icon"
-                                     class="img-fluid w-100 rounded-3">
-                            </div>
-                            <h4>Advanced Plan</h4>
-                            <p><span class="currency">$</span>195</p>
-                            <div class="pricing--desc">
-                                Full Business analyzing, next generation accounting, and training sessions.
-                            </div>
-                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2" href="#">Get Started</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
+        <!-- . case-item end -->
+        <!-- Case #3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips filter-Consulting">
+            <div class="case-item-container">
+                <div class="case--img">
+                    <img src="assets/images/home/project-1.png" alt="case Item">
+                    <div class="case--hover">
+                        <div class="case--action">
+                            <a href="#" title="case Item"></a>
+                        </div>
+                        <!-- .case-action end -->
+                    </div>
+                    <!-- .case-hover end -->
+                </div>
+                <!-- .case-img end -->
+                <div class="case--content">
+                    <!-- <div class="case--cat">
+                        <a href="#">Customer Service</a><a href="#">Consulting</a>
+                    </div> -->
+                    <div class="case--title">
+                        <h4><a href="case-study-single.html">Outdoor Net Trail Rectification & Maintenance</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- . case-item end -->
 
-        <div class="section-divider"></div>
-    </section>--}}
+
+        <!-- . case-item end -->
+    </div>
+    <!-- .row end -->
+     <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                         <a href="" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All Projects </a>
+                </div>
+</div>
+            </div>
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
+  <div class="bg-section">
+    <img src="assets/images/background/2.jpg" alt="background">
+  </div>
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-sm-12 col-md-12 col-lg-6 offset-md-3">
+        <div class="heading heading-1 text--center mb-40">
+          <h2 class="heading--title text-white">Our Pricing Plans</h2>
+          <p class="heading--desc heading--light mb-0 color-white">
+            Get started now with us to earn every day and forever in your business. We accept Investment from all over the world.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-40">
+    <div class="row">
+
+      <!-- Pricing Package #1 -->
+      <div class="col-sm-12 col-md-4 col-lg-4 price-table">
+        <div class="pricing-panel">
+            <div class="pricing--icon mb-3">
+              <img src="assets/images/home/quick-service-restaurant.png" alt="Starter Plan Icon" class="img-fluid w-100 rounded-3">
+            </div>
+          <div class="pricing--heading text--center">
+
+            <h4>Family Entertainment Center (FEC)</h4>
+            <p><span class="currency">AED</span> 1.25M</p>
+            <div class="pricing--desc">
+              A complete entertainment destination with soft play, trampolines, adventure zones, interactive attractions, dining and more..
+            </div>
+            <a class="btn btn--primary btn-padding btn--bordered btn--rounded mt-2" href="#">Explore Business Models </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Package #2 -->
+      <div class="col-sm-12 col-md-4 col-lg-4 price-table ">
+        <div class="pricing-panel">
+              <div class="pricing--icon mb-3">
+              <img src="assets/images/home/outdoor-waterPlay.png" alt="Basic Plan Icon" class="img-fluid w-100 rounded-3">
+            </div>
+          <div class="pricing--heading text--center">
+
+            <h4>Outdoor Water Play</h4>
+            <p><span class="currency">AED</span> 1.8M</p>
+            <div class="pricing--desc">
+              Exciting water slides, splash zones, and interactive fountains for resorts, parks, and family-friendly outdoor attractions.
+            </div>
+            <a class="btn btn--primary btn-padding btn--bordered btn--rounded mt-2" href="#">Explore Business Models </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Package #3 -->
+    <div class="col-sm-12 col-md-4 col-lg-4 price-table">
+        <div class="pricing-panel">
+            <div class="pricing--icon mb-3">
+              <img src="assets/images/home/quick-service-restaurant.png" alt="Starter Plan Icon" class="img-fluid w-100 rounded-3">
+            </div>
+          <div class="pricing--heading text--center">
+
+            <h4>Quick Service Restaurant (QSR)</h4>
+            <p><span class="currency">AED</span> 250,000</p>
+            <div class="pricing--desc">
+                Modern, efficient, and engaging dining solutions for leisure destinations, malls, and entertainment centers.
+            </div>
+            <a class="btn btn--primary btn-padding btn--bordered btn--rounded mt-2" href="#">Explore Business Models </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section-divider"></div>
+</section>
 
 
 
@@ -817,22 +694,26 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="heading">
                                 <!-- <p class="heading--subtitle">Who Are We?</p> -->
-                                <h2 class="heading--title mb-4">About Us</h2>
+                                <h2 class="heading--title mb-4">About Innovative Leisure </h2>
                             </div>
                             <p class="feature-card-desc">
-                                At Innovative Leisure, we go beyond investments, we deliver complete turnkey solutions
-                                for the leisure and entertainment industry. From curating investor-ready opportunities
-                                to developing, structuring, and operating ventures, we manage every step of the journey.
-                                Our expertise ensures that each project is not only financially sound but also
-                                strategically designed, executed, and positioned for long-term success. With us, you
-                                don’t just invest in a business - you invest in a fully realized vision.
+                                <p><b>Innovative Leisure is a specialist leisure development company</b> dedicated to building <b>immersive, profitable, and future-ready entertainment spaces.</b></p>
+                                <p>We combine <b>creative design, engineering expertise</b>, and <b>operational insight</b> to bring ideas to life from <b>soft play centers and trampolines</b> to <b>adventure parks and social entertainment hubs.</b></p>
+
+
+                                <h6>Our mission is simple:</h6>
+                                <p><b>To transform ordinary spaces into extraordinary experiences that entertain, engage, and endure.</b>  </p>
+
+                                <a class="btn btn--secondary btn--bordered btn--rounded mt-2 btn-padding" href="#">Read More</a>
                             </p>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/about/about.png" alt="banner img">
+                                         <img src="assets/images/home/about-us.png" alt="banner img">
+                                    </div>
                                 </div>
+
                             </div>
                             <!--<div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="200ms">-->
                             <!--    <div class="info-card">-->
@@ -929,7 +810,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
 
 
 

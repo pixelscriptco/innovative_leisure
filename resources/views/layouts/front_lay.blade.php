@@ -29,7 +29,7 @@
     <header id="navbar-spy" class="header header-1 header-transparent">
         <nav id="primary-menu" class="navbar navbar-expand-lg navbar-light navbar-bordered">
             <div class="container">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     <img class="logo logo-light" src="assets/images/logo/logo-plain.png" alt="Innovative Leisure">
                     <img class="logo logo-dark" src="assets/images/logo/logo-dark.png" alt="Innovative Leisure">
                 </a>
@@ -39,7 +39,10 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="home-li">
-                            <a href="/" class="menu-item">Home</a>
+                            <a href="{{ url('/') }}" class="menu-item">Home</a>
+                        </li>
+                        <li class="about-li">
+                            <a href="{{ url('about-us') }}" class="menu-item">About Us</a>
                         </li>
                         <li class="service-li">
                             <a href="{{ url('service') }}" class="menu-item">Services</a>
@@ -95,12 +98,11 @@
                         </div>
                         <div class="widget-content">
                              <ul>
-                                <li><a class="color-white" href="">Advisory & Investment Modeling</a></li>
-                                <li><a class="color-white" href="">Concept Development</a></li>
-                                <li><a class="color-white" href="">Design & Construction</a></li>
-                                <li><a class="color-white" href="">Financing & Bank Linkage</a></li>
-                                  <li><a class="color-white" href="">Business Setup</a></li>
-                                <li><a class="color-white" href="">Operational Support </a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Advisory & Investment Modeling</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Concept Development</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Design & Construction</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Financing & Bank Linkage</a></li><li><a class="color-white" href="javascript:void(0)">Business Setup</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Operational Support </a></li>
                             </ul>
                         </div>
                     </div><!-- .col-md-3 end -->
@@ -115,7 +117,7 @@
             <div class="row">
                 <div class="col-12 col-md-12 col-md-12 text--center footer--copyright">
                     <div class="copyright">
-                        <span class="color-white">© {{date('Y')}}, With Love by</span> <a href="#" class="color-gold">Innovative Leisure</a>
+                        <span class="color-white">© {{date('Y')}}, With Love by</span> <a href="{{ url('/') }}" class="color-gold">Innovative Leisure</a>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('frontend/index');
 });
 
+Route::get('about-us', function () {
+    return view('frontend/about');
+});
+
 Route::get('service', function () {
     return view('frontend/service');
 });

@@ -34,7 +34,7 @@
         <span class="color-green">Pop-Up Kids Play</span>
         <h4 class="fw-bold">Flexible family entertainment zones for malls and events.</h4>
         <p class="text-muted">Operate through strategic franchise partnerships ensuring brand consistency and local growth.</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -49,7 +49,7 @@
         <span class="color-green">Indoor Entertainment Center (FEC)</span>
         <h4 class="fw-bold">High-traffic indoor attractions for malls and community hubs.</h4>
         <p class="text-muted">ROI: 8–10 months | CAPEX: AED 800k–4.5M</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -64,7 +64,7 @@
         <span class="color-green">Print & Gift Services Kiosk (Print Nest)</span>
         <h4 class="fw-bold">Compact kiosks for instant printing and gifting solutions.</h4>
         <p class="text-muted">ROI: 16–20 months | CAPEX: AED 50k–60k</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -78,7 +78,7 @@
         <span class="color-green">E-Scooter Franchise</span>
         <h4 class="fw-bold">Urban mobility franchise offering eco-friendly solutions.</h4>
         <p class="text-muted">ROI: 12–14 months | CAPEX: AED 330k–350k</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -93,7 +93,7 @@
         <span class="color-green">Men’s Grooming Lounge</span>
         <h4 class="fw-bold">Premium barbershop and grooming services in high-demand areas.</h4>
         <p class="text-muted">ROI: 12–18 months | CAPEX: AED 85k–100k</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -107,7 +107,7 @@
         <span class="color-green">Water Splash Play</span>
         <h4 class="fw-bold">Compact splash play zones for malls and outdoor leisure spaces.</h4>
         <p class="text-muted">ROI: Custom based on location and scale</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -122,7 +122,7 @@
         <span class="color-green">Fine Dining & Bar Concept</span>
         <h4 class="fw-bold">Upscale dining and entertainment venues for prime Dubai locations</h4>
         <p class="text-muted">ROI: 2.5–3.5 years | CAPEX: AED 25M–35M</p>
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>
@@ -135,8 +135,8 @@
       <div class="col-md-7">
         <span class="color-green">Technical Services & Maintenance</span>
         <h4 class="fw-bold">Facility upkeep, AMC services, and technical support for leisure projects.</h4>
-      
-        <a href="#" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
           Submit Virtual NDA for Details
         </a>
       </div>

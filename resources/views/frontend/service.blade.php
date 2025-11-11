@@ -13,7 +13,7 @@
                         </div>
                         <div class="clearfix"></div>
                         <ol class="breadcrumb d-flex justify-content-center">
-                            <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Services</li>
                         </ol>
                     </div>
@@ -26,8 +26,8 @@
         <!-- .container end -->
     </section>
     <!-- #page-title end -->
-    
-    
+
+
 <section id="featured4" class="featured featured-4 serviceAbout featured-left pt-110 pb-100">
         <div class="container">
             <div class="row">
@@ -35,12 +35,12 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="heading">
-                             
+
                                 <h2 class="heading--title mb-4">Turnkey Solutions for the Leisure & Entertainment Industry</h2>
                             </div>
                             <p class="feature-card-desc">
         At <b>Innovative Leisure</b>, we deliver <b>end-to-end</b> services for creating immersive, safe,
-         and profitable entertainment spaces. From concept development to ongoing operations, 
+         and profitable entertainment spaces. From concept development to ongoing operations,
          we provide <b>turnkey solutions</b> tailored to <b>family entertainment centers, adventure play zones,
           trampoline parks, interactive experiences, social leisure venues, and restaurants.</b>
                             </p>
@@ -59,8 +59,8 @@
             </div>
         </div>
     </section>
-    
-                    
+
+
 
     <!-- Featured #1
     ============================================= -->
@@ -69,7 +69,7 @@
             <div class="row ">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                     <div class="heading  mb-50 text--center">
-                        
+
                         <h2 class="heading--title">Our Services</h2>
                         <p class="heading--desc mb-0">End-to-End Solutions for Leisure Ventures</p>
                     </div>
@@ -84,12 +84,12 @@
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Advisory & Investment Modeling</h3>
                             <p class="feature-card-desc">We provide <b>strategic advisory and business modelling</b> to determine
-                                 the optimal business structure for your project. By analyzing <b>market opportunities, audience insights, 
+                                 the optimal business structure for your project. By analyzing <b>market opportunities, audience insights,
                                  and investment criteria</b>, we help you build <b>profitable, sustainable, and future-ready leisure ventures</b></p>
                         </div>
                     </div>
                 </div>
-              
+
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
@@ -111,7 +111,7 @@
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Design & Consultancy</h3>
                             <p class="feature-card-desc">From <b>concept design to technical documentation</b>, we provide <b>creative, practical, and immersive solutions </b>.
-                            We ensure your leisure space is <b>visually stunning, 
+                            We ensure your leisure space is <b>visually stunning,
                                 safe, and operationally efficient </b></p>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                             <p class="feature-card-desc">We provide <b>comprehensive operational support and maintenance</b> to maximize the <b>lifespan, safety, and performance</b> of your leisure assets. </p>
                         </div>
                     </div>
-                    
+
                 </div>
                  <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
@@ -187,7 +187,7 @@
                                 This ensures <b>shared goals, sustained growth, and measurable ROI </b></p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <!-- .row end -->
@@ -202,11 +202,11 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <h3 class="text-center">Ready to Bring Your Leisure Project to Life?</h3>
                     <!--<p class="text-center">Discover investor-ready business models with validated ROI metrics, designed for Dubai’s thriving leisure market.</p>-->
-                   
+
                 </div>
                 <!-- .col-lg-9 -->
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                         <a href="#" class="btn btn--white btn--bordered btn--rounded">Contact Us to Discuss Your Project </a>
+                         <a href="{{ url('contact-us') }}" class="btn btn--white btn--bordered btn--rounded">Contact Us to Discuss Your Project </a>
                 </div>
                 <!-- .col-lg-3 -->
             </div>
@@ -220,8 +220,8 @@
                 <h2 class="heading--title mb-5">Our Core Values</h2>
             </div>
             <div class="row">
-                 
-              
+
+
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
