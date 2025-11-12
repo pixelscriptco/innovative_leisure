@@ -158,3 +158,23 @@
 .pricing-panel .pricing--heading .pricing--desc {
     color: #000 !important;
 }
+
+
+.whyPartner.featured-2 .col-content {
+        padding: 80px 90px 50px 120px;
+} 
+
+.business-model-details p {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.business-model-details h6  {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.business-model-details li {
+    color: #000;
+    font-size: 14px;
+}

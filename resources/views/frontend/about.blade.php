@@ -2,7 +2,7 @@
 @section('content')
     <section id="page-title" class="page-title bg-overlay  bg-overlay-dark bg-parallax">
         <div class="bg-section">
-            <img src="assets/images/page-titles/1.jpg" alt="Background"/>
+            <img src="assets/images/about/about-banner.svg" alt="Background"  style="width:100%;height:100%;object-fit:cover;object-position:center;"/>
         </div>
         <div class="container">
             <div class="row">
@@ -30,7 +30,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row whatWedoSection">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/about/about.png" alt="banner img">
+                                    <img src="assets/images/home/about-us.png" alt="banner img">
                                 </div>
                             </div>
 
@@ -91,7 +91,7 @@
                 <!-- .col-lg-6 end -->
                 <div class="col-sm-12 col-md-12 col-lg-6 pr-0">
                     <div class="banner--img">
-                        <img src="assets/images/home/whytochoose.jpg" alt="banner img">
+                        <img src="assets/images/about/our-expertise.jpg" alt="banner img">
                     </div>
                 </div>
                 <!-- .col-lg-6 end -->
@@ -110,7 +110,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row whatWedoSection">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/about/about.png" alt="banner img">
+                                    <img src="assets/images/about/why-choose-us.svg" alt="banner img">
                                 </div>
                             </div>
 
@@ -234,7 +234,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/about/about.png" alt="banner img">
+                                    <img src="assets/images/about/vision.svg" alt="banner img">
                                 </div>
                             </div>
 
