@@ -82,9 +82,9 @@
                                 <div class="contact-result"></div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <p>We look forward to partnering with you and delivering solutions that exceed expectations.</p>
+                        <div class="row mt-5 mb-0">
+                            <div class="col-sm-12 col-md-12 col-lg-12 bg-light rounded-5">
+                                <p class="pt-4">We look forward to partnering with you and delivering solutions that exceed expectations.</p>
                             </div>
                         </div>
                     </form>

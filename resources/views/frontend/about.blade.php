@@ -128,8 +128,8 @@
                                 destinations that
                                 entertain, inspire, and endure.</p>
 
-                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2 btn-padding" href="#">Read
-                                More</a>
+{{--                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2 btn-padding" href="#">Read--}}
+{{--                                More</a>--}}
 
                         </div>
 
@@ -202,7 +202,7 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <a href="{{ url('services') }}" class="btn btn--primary btn-padding btn--bordered btn--rounded">Explore
+                    <a href="{{ url('service') }}" class="btn btn--primary btn-padding btn--bordered btn--rounded">Explore
                         Our Services </a>
                 </div>
             </div>

@@ -189,3 +189,11 @@
 .pricing-panel .pricing--heading p span {
     vertical-align: unset !important;
 }
+
+.header-transparent + .page-title {
+    margin-top: 0 !important;
+}
+
+.rounded-1-5 {
+    border-radius: 1.5rem !important;
+}

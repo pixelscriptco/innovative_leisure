@@ -86,7 +86,7 @@
                             </div>
                         </div>
                     </div><!-- .col-md-3 end -->
-                    <div class="col-sm-12 col-md-3 col-lg-3 offset-lg-1 footer--widget widget-links">
+                    <div class="col-sm-12 col-md-3 col-lg-2 offset-lg-1 footer--widget widget-links">
                         <div class="widget-title">
                             <h5>Quick Links</h5>
                         </div>

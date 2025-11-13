@@ -25,7 +25,7 @@
                              data-lineheight="['60','60','60','60']"
                              data-width="none"
                              data-height="none"
-                             data-frames='[{"delay":500,"speed":2500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
@@ -53,7 +53,7 @@
                              data-width="none"
                              data-height="none"
                              data-whitespace="nowrap"
-                             data-frames='[{"delay":1000,"speed":2500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":1000,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
@@ -85,7 +85,7 @@
                              data-lineheight="['60','60','60','60']"
                              data-width="none"
                              data-height="none"
-                             data-frames='[{"delay":500,"speed":2500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
@@ -544,7 +544,7 @@
                                             <a href="#">Business Tips</a><a href="#">Consulting</a>
                                         </div> -->
                                         <div class="case--title">
-                                            <h4><a href="case-study-single.html">Soft Play & Interactives - Supply &
+                                            <h4><a href="javascript:void(0)">Soft Play & Interactives - Supply &
                                                     Installation</a></h4>
                                         </div>
                                     </div>
@@ -570,7 +570,7 @@
                                             <a href="#">Investment</a><a href="#">Tips</a>
                                         </div> -->
                                         <div class="case--title">
-                                            <h4><a href="case-study-single.html">Family Entertainment Center Concept
+                                            <h4><a href="javascript:void(0)">Family Entertainment Center Concept
                                                     Development</a></h4>
                                         </div>
                                     </div>
@@ -596,7 +596,7 @@
                                             <a href="#">Customer Service</a><a href="#">Consulting</a>
                                         </div> -->
                                         <div class="case--title">
-                                            <h4><a href="case-study-single.html">Outdoor Net Trail Rectification &
+                                            <h4><a href="javascript:void(0)">Outdoor Net Trail Rectification &
                                                     Maintenance</a></h4>
                                         </div>
                                     </div>
@@ -645,7 +645,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table">
                     <div class="pricing-panel">
                         <div class="pricing--icon mb-3">
-                            <img src="assets/images/home/quick-service-restaurant.png" alt="Starter Plan Icon"
+                            <img src="assets/images/home/family-entertainment-center.png" alt="Starter Plan Icon"
                                  class="img-fluid w-100 rounded-3">
                         </div>
                         <div class="pricing--heading text--center">
@@ -744,8 +744,8 @@
                             <p><b>To transform ordinary spaces into extraordinary experiences that entertain, engage,
                                     and endure.</b></p>
 
-                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2 btn-padding" href="#">Read
-                                More</a>
+{{--                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2 btn-padding" href="#">Read--}}
+{{--                                More</a>--}}
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
