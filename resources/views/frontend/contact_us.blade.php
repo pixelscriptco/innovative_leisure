@@ -32,7 +32,7 @@
                     <div class="heading heading-2 mb-50 text--center">
                         <p class="heading--subtitle">Have A Question?</p>
                         <h2 class="heading--title">Get in touch</h2>
-                        <p class="heading--desc mb-0">We understand the importance of approaching each work integrally and believe in the power of simple and easy communication.</p>
+                        <p class="heading--desc mb-0">Your trusted partner for integrated leisure & entertainment solutions - from concept to completion and beyond.</p>
                     </div>
                 </div>
                 <!-- .col-lg-6 end -->
@@ -82,6 +82,11 @@
                                 <div class="contact-result"></div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p>We look forward to partnering with you and delivering solutions that exceed expectations.</p>
+                            </div>
+                        </div>
                     </form>
                     <!-- form end -->
                 </div>
@@ -107,7 +112,8 @@
                         <h3>Our Address</h3>
                         <p>Innovative Leisure</p>
                         <p>Investments and Venture Solutions</p>
-                        <p>Dubai Sports City, Dubai, United Arab Emirates</p>
+                        <p>Dubai Sports City, Dubai</p>
+                        <p>United Arab Emirates</p>
                     </div>
                 </div>
                 <!-- .col-lg-4 end -->
@@ -129,6 +135,12 @@
                     <div class="contact--info">
                         <h3>Hotlines</h3>
                         <p>+971525662703</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="contact--info">
+                        <h3>Landline</h3>
+                        <p>+97144206775</p>
                     </div>
                 </div>
                 <!-- .col-lg-4 end -->

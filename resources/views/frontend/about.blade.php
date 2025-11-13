@@ -9,7 +9,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                     <div class="title text-center">
                         <div class="title--heading">
-                            <h1>About</h1>
+                            <h1>About Us</h1>
                         </div>
                         <div class="clearfix"></div>
                         <ol class="breadcrumb d-flex justify-content-center">

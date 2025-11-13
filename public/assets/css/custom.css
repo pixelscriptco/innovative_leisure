@@ -15,6 +15,13 @@
     color: #c2a146 !important;
 }
 
+.f-size-20{
+    font-size: 20px !important;
+}
+
+.f-size-40 {
+    font-size: 40px !important;
+}
 
 .homeService {
     background-color: #e7e7e763
@@ -162,7 +169,7 @@
 
 .whyPartner.featured-2 .col-content {
         padding: 80px 90px 50px 120px;
-} 
+}
 
 .business-model-details p {
     line-height: 24px;
@@ -177,4 +184,8 @@
 .business-model-details li {
     color: #000;
     font-size: 14px;
+}
+
+.pricing-panel .pricing--heading p span {
+    vertical-align: unset !important;
 }

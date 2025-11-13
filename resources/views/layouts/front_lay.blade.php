@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Consulting Business Consulting Finance Html5 Template">
     <link href="assets/images/favicon/favicon-16x16.png" rel="icon">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800%7CRoboto:300i,400,400i,500,500i,700" rel="stylesheet" type="text/css">
+    <link
+        href="http://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800%7CRoboto:300i,400,400i,500,500i,700"
+        rel="stylesheet" type="text/css">
     <link href="assets/css/external.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
@@ -33,7 +35,8 @@
                     <img class="logo logo-light" src="assets/images/logo/logo-plain.png" alt="Innovative Leisure">
                     <img class="logo logo-dark" src="assets/images/logo/logo-dark.png" alt="Innovative Leisure">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarContent">
@@ -68,18 +71,24 @@
                     <div class="col-12 col-md-6 col-lg-4 footer--widget widget-about">
                         <div class="widget-content">
                             <img class="footer-logo" src="assets/images/logo/logo-plain.png" width="200" alt="logo">
-                            <p class="color-white">Innovative Leisure Technical Services LLC: Your turnkey business realization partner for profitable leisure ventures across UAE and GCC</p>
+                            <p class="color-white">Innovative Leisure: Your turnkey business realization partner for
+                                profitable leisure ventures across UAE and GCC</p>
                             <div class="social-icons">
+                                <a href="https://www.linkedin.com/company/innovativeleisure/"
+                                   class="linkedin color-white"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/innovativeleisure2025/"
+                                   class="instagram color-white"><i class="fa fa-instagram"></i></a>
+                                <a href="https://wa.me/+971525662703?text=Hello%20I%20am%20interested%20in%20your%20services"
+                                   target="_blank" class="whatsapp color-white"><i class="fa fa-whatsapp"></i></a>
                                 <a href="#" class="facebook color-white "><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="twitter color-white"><i class="fa fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/innovativeleisure2025/" class="instagram color-white"><i class="fa fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/innovativeleisure/" class="linkedin color-white"><i class="fa fa-linkedin"></i></a>
+
+
                             </div>
                         </div>
                     </div><!-- .col-md-3 end -->
                     <div class="col-12 col-sm-4 col-md-3 col-lg-3 offset-lg-1 footer--widget widget-links">
                         <div class="widget-title">
-                            <h5>Links</h5>
+                            <h5>Quick Links</h5>
                         </div>
                         <div class="widget-content">
                             <ul>
@@ -97,12 +106,17 @@
                             <h5>Services</h5>
                         </div>
                         <div class="widget-content">
-                             <ul>
-                                <li><a class="color-white" href="javascript:void(0)">Advisory & Investment Modeling</a></li>
-                                <li><a class="color-white" href="javascript:void(0)">Concept Development</a></li>
-                                <li><a class="color-white" href="javascript:void(0)">Design & Construction</a></li>
-                                <li><a class="color-white" href="javascript:void(0)">Financing & Bank Linkage</a></li><li><a class="color-white" href="javascript:void(0)">Business Setup</a></li>
-                                <li><a class="color-white" href="javascript:void(0)">Operational Support </a></li>
+                            <ul>
+                                <li><a class="color-white" href="javascript:void(0)">Advisory & Investment Modeling</a>
+                                </li>
+                                <li><a class="color-white" href="javascript:void(0)">Location & ROI Planning</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Design & Consultancy</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Civil Works</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">MEP Works</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Fit-out Works</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Supply & Installation</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Operation & Maintenance</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Revenue-based Partnership</a></li>
                             </ul>
                         </div>
                     </div><!-- .col-md-3 end -->
@@ -117,7 +131,7 @@
             <div class="row">
                 <div class="col-12 col-md-12 col-md-12 text--center footer--copyright">
                     <div class="copyright">
-                        <span class="color-white">© {{date('Y')}}, With Love by</span> <a href="{{ url('/') }}" class="color-gold">Innovative Leisure</a>
+                        <span class="color-white">© {{date('Y')}}, All Rights Reserved.</span>
                     </div>
                 </div>
             </div>
