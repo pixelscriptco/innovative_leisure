@@ -144,7 +144,7 @@
             <div class="row">
                 <div class="col-12 col-md-12 col-md-12 text--center footer--copyright">
                     <div class="copyright">
-                        <span class="color-white">© {{date('Y')}}, All Rights Reserved.</span>
+                        <span class="color-white">© {{date('Y')}} All Rights Reserved.</span>
                     </div>
                 </div>
             </div>
