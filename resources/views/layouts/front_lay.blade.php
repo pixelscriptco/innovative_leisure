@@ -68,7 +68,7 @@
         <div class="footer-widget">
             <div class="container">
                 <div class="row clearfix">
-                    <div class="col-12 col-md-6 col-lg-4 footer--widget widget-about">
+                    <div class="col-12 col-md-3 col-lg-3 footer--widget widget-about">
                         <div class="widget-content">
                             <img class="footer-logo" src="assets/images/logo/logo-plain.png" width="200" alt="logo">
                             <p class="color-white">Innovative Leisure: Your turnkey business realization partner for
@@ -101,7 +101,7 @@
                     </div><!-- .col-md-2 end -->
 
 
-                    <div class="col-12 col-md-3 col-lg-4 footer--widget widget-newsletter">
+                    <div class="col-12 col-md-3 col-lg-3 footer--widget widget-newsletter">
                         <div class="widget-title">
                             <h5>Services</h5>
                         </div>
@@ -120,7 +120,7 @@
                             </ul>
                         </div>
                     </div><!-- .col-md-3 end -->
-                    <div class="col-12 col-md-3 col-lg-4 footer--widget widget-newsletter">
+                    <div class="col-12 col-md-3 col-lg-3 footer--widget widget-newsletter">
                         <div class="widget-title">
                             <h5>Business Models</h5>
                         </div>
