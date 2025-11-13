@@ -120,6 +120,21 @@
                             </ul>
                         </div>
                     </div><!-- .col-md-3 end -->
+                    <div class="col-12 col-md-3 col-lg-4 footer--widget widget-newsletter">
+                        <div class="widget-title">
+                            <h5>Business Models</h5>
+                        </div>
+                        <div class="widget-content">
+                            <ul>
+                                <li><a class="color-white" href="javascript:void(0)">Family Entertainment Center Large Scale (FEC)</a>
+                                </li>
+                                <li><a class="color-white" href="javascript:void(0)">PopUp Kids Play</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Waterplay Villa</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Fine Dining/Premium Restaurant</a></li>
+                                <li><a class="color-white" href="javascript:void(0)">Upscale Dining & Bar Venue</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- .col-md-3 end -->
                     <div class="clearfix"></div>
                 </div>
             </div><!-- .container end -->
