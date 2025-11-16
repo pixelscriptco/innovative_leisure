@@ -39,7 +39,7 @@
                              data-lineheight="['25','25','25','25']"
                              data-width="none"
                              data-height="none"
-                             data-frames='[{"delay":800,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on">
@@ -53,7 +53,7 @@
                              data-width="none"
                              data-height="none"
                              data-whitespace="nowrap"
-                             data-frames='[{"delay":1000,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
@@ -644,7 +644,7 @@
                 <!-- Pricing Package #1 -->
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table">
                     <div class="pricing-panel">
-                        <div class="pricing--icon mb-3">
+                        <div class="pricing--icon">
                             <img src="assets/images/home/family-entertainment-center.png" alt="Starter Plan Icon"
                                  class="img-fluid w-100 rounded-3">
                         </div>
@@ -665,7 +665,7 @@
                 <!-- Pricing Package #2 -->
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table ">
                     <div class="pricing-panel">
-                        <div class="pricing--icon mb-3">
+                        <div class="pricing--icon">
                             <img src="assets/images/home/outdoor-waterPlay.png" alt="Basic Plan Icon"
                                  class="img-fluid w-100 rounded-3">
                         </div>
@@ -686,7 +686,7 @@
                 <!-- Pricing Package #3 -->
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table">
                     <div class="pricing-panel">
-                        <div class="pricing--icon mb-3">
+                        <div class="pricing--icon">
                             <img src="assets/images/home/quick-service-restaurant.png" alt="Starter Plan Icon"
                                  class="img-fluid w-100 rounded-3">
                         </div>
@@ -716,8 +716,7 @@
                 </div>
                 <!-- .col-lg-9 -->
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <a href="{{ url('business-model') }}" class="btn btn--white btn--bordered btn--rounded">Look Through Our
-                        Business Models</a>
+                    <a href="{{ url('business-model') }}" class="btn btn--white btn--bordered btn--rounded">Look Through Our Business Models</a>
                 </div>
             </div>
             <!-- .row -->

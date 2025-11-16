@@ -133,12 +133,6 @@
                 </div>
                 <div class="col-sm-12 col-md-3 col-lg-3">
                     <div class="contact--info">
-                        <h3>Hotlines</h3>
-                        <p>+971525662703</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <div class="contact--info">
                         <h3>Landline</h3>
                         <p>+97144206775</p>
                     </div>

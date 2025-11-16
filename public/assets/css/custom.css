@@ -151,6 +151,7 @@
 
 .pricing-panel {
     background-color: #fff;
+    min-height: 94%;
 }
 
 .pricing-panel .pricing--heading h4 {
@@ -160,15 +161,18 @@
 
 .pricing-panel .pricing--heading {
   padding: 30px 30px 50px;
+    box-shadow: unset;
+    border-radius: unset;
+    background-color: unset;
 }
 
 .pricing-panel .pricing--heading .pricing--desc {
     color: #000 !important;
+    margin-bottom: unset;
 }
 
-
 .whyPartner.featured-2 .col-content {
-        padding: 80px 90px 50px 120px;
+    padding: 80px 90px 50px 120px;
 }
 
 .business-model-details p {
@@ -196,4 +200,8 @@
 
 .rounded-1-5 {
     border-radius: 1.5rem !important;
+}
+
+.bg-overlay-dark2:before {
+    background-color: #0a1f44;
 }
