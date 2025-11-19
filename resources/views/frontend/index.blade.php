@@ -1,196 +1,186 @@
 @extends('layouts.front_lay')
 @section('content')
-    <section id="slider" class="slider slide-overlay-dark">
+    <section id="slider" class="slider slide-overlay-dark" style="position:relative;">
         <div class="rev_slider_wrapper">
-            <div id="slider1" class="rev_slider" data-version="5.0">
+
+            <!-- STATIC BACKGROUND VIDEO (only once) -->
+            <div class="video-bg"
+                 style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;">
+                <video autoplay muted loop playsinline preload="auto"
+                       style="width:100%;height:100%;object-fit:cover;">
+                    <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- DARK OVERLAY -->
+            <div class="video-overlay"
+                 style="position:absolute;inset:0;background:rgba(0,0,0,0.7);z-index:1;"></div>
+
+            <!-- SLIDER -->
+            <div id="slider1" class="rev_slider" data-version="5.0" style="z-index:2; position:relative;">
                 <ul>
-                    <li data-transition="zoomout"
-                        data-slotamount="default"
-                        data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut"
-                        data-masterspeed="2000">
-                        <video autoplay muted loop playsinline preload="auto"
-                               style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
-                            <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
 
-                            Your browser does not support the video tag.
-                        </video>
+                    <!-- ======================================= -->
+                    <!-- SLIDE 1 -->
+                    <!-- ======================================= -->
+                    <li data-transition="zoomout">
 
-                        <div class="video-overlay"
-                             style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
+                        <!-- TRANSPARENT BACKGROUND (required by Rev Slider) -->
+{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
+{{--                             class="rev-slidebg"--}}
+{{--                             data-bgfit="cover"--}}
+{{--                             data-bgposition="center center"--}}
+{{--                             data-bgrepeat="no-repeat">--}}
+
+                        <!-- HEADLINE -->
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60', '50', '40', '30']"
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['-5','-5','-5','10']"
+                             data-fontsize="['60','50','40','30']"
                              data-lineheight="['60','60','60','60']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--headline">Invest. <span class="font-40">Innovate. Inspire.</span>
+                             data-frames='[
+                            {"delay":500,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <div class="slide--headline">
+                                Invest. <span class="font-40">Innovate. Inspire.</span>
                             </div>
                         </div>
+
+                        <!-- SUBTEXT -->
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']"
-                             data-fontsize="['16', '16', '16', '12']"
-                             data-lineheight="['25','25','25','25']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--bio">Invest in world-class leisure and entertainment ventures <br> with a
-                                turnkey solutions partner you can trust.
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['100','100','100','100']"
+                             data-frames='[
+                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <div class="slide--bio">
+                                Invest in world-class leisure and entertainment ventures<br>
+                                with a turnkey solutions partner you can trust.
                             </div>
                         </div>
+
+                        <!-- BUTTON -->
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['176','176','200','210']"
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on"
-                        >
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['176','176','200','210']"
+                             data-frames='[
+                            {"delay":1300,"speed":600,"from":"x:-50px;opacity:0;","to":"o:1;"}
+                         ]'>
                             <div class="slide-action">
-                                <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">Our
-                                    Services</a>
+                                <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">
+                                    Our Services
+                                </a>
                             </div>
                         </div>
+
                     </li>
-                    <li data-transition="zoomout"
-                        data-slotamount="default"
-                        data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut"
-                        data-masterspeed="2000">
-                        <video autoplay muted loop playsinline preload="auto"
-                               style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
-                            <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
 
-                            Your browser does not support the video tag.
-                        </video>
+                    <!-- ======================================= -->
+                    <!-- SLIDE 2 -->
+                    <!-- ======================================= -->
+                    <li data-transition="zoomout">
 
-                        <div class="video-overlay"
-                             style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
+{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
+{{--                             class="rev-slidebg"--}}
+{{--                             data-bgfit="cover"--}}
+{{--                             data-bgposition="center center"--}}
+{{--                             data-bgrepeat="no-repeat">--}}
+
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60', '50', '40', '30']"
-                             data-lineheight="['60','60','60','60']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--headline"><span class="font-40">Invest.</span> Innovate.<span
-                                    class="font-40"> Inspire.</span>
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['-5','-5','-5','10']"
+                             data-fontsize="['60','50','40','30']"
+                             data-frames='[
+                            {"delay":700,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <div class="slide--headline">
+                                <span class="font-40">Invest.</span> Innovate. <span class="font-40">Inspire.</span>
                             </div>
                         </div>
+
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']"
-                             data-fontsize="['16', '16', '16', '12']"
-                             data-lineheight="['25','25','25','25']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":800,"speed":2500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--bio">Innovating immersive attractions through creative design,<br> smart
-                                technology, and seamless execution.
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['100','100','100','100']"
+                             data-frames='[
+                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <div class="slide--bio">
+                                Innovating immersive attractions through creative design,<br>
+                                smart technology, and seamless execution.
                             </div>
                         </div>
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['176','176','200','210']"
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on"
-                        >
-                            <div class="slide-action">
-                                <!-- <a class="btn btn--white btn--bordered btn--rounded" href="services">Our Services</a> -->
-                            </div>
-                        </div>
+
                     </li>
-                    <li data-transition="zoomout"
-                        data-slotamount="default"
-                        data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut"
-                        data-masterspeed="2000">
-                        <video autoplay muted loop playsinline preload="auto"
-                               style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
-                            <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
 
-                            Your browser does not support the video tag.
-                        </video>
+                    <!-- ======================================= -->
+                    <!-- SLIDE 3 -->
+                    <!-- ======================================= -->
+                    <li data-transition="zoomout">
 
-                        <div class="video-overlay"
-                             style="position:absolute;inset:0;background:rgba(0,0,0,0.8);z-index:1;"></div>
+{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
+{{--                             class="rev-slidebg"--}}
+{{--                             data-bgfit="cover"--}}
+{{--                             data-bgposition="center center"--}}
+{{--                             data-bgrepeat="no-repeat">--}}
+
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60', '50', '40', '30']"
-                             data-lineheight="['60','60','60','60']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--headline"><span class="font-40">Invest. Innovate. </span> Inspire.
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['-5','-5','-5','10']"
+                             data-fontsize="['60','50','40','30']"
+                             data-frames='[
+                            {"delay":500,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <div class="slide--headline">
+                                <span class="font-40">Invest. Innovate.</span> Inspire.
                             </div>
                         </div>
+
                         <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']"
-                             data-fontsize="['16', '16', '16', '12']"
-                             data-lineheight="['25','25','25','25']"
-                             data-width="none"
-                             data-height="none"
-                             data-frames='[{"delay":1250,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on">
-                            <div class="slide--bio">Inspiring growth through strategic partnerships and scalable <br>
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['100','100','100','100']"
+                             data-frames='[
+                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <div class="slide--bio">
+                                Inspiring growth through strategic partnerships and scalable<br>
                                 business models in leisure and entertainment.
                             </div>
                         </div>
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']" data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']" data-voffset="['176','176','200','210']"
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on"
-                        >
-                            <div class="slide-action">
-                                <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">Business Models</a>
-                            </div>
-                        </div>
-                    </li>
 
+                        <div class="tp-caption"
+                             data-x="['left','left','left','left']"
+                             data-hoffset="['70','50','50','20']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-voffset="['176','176','200','210']"
+                             data-frames='[
+                            {"delay":1300,"speed":600,"from":"x:-50px;opacity:0;","to":"o:1;"}
+                         ]'>
+                            <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">
+                                Business Models
+                            </a>
+                        </div>
+
+                    </li>
 
                 </ul>
             </div>
-            <!-- END REVOLUTION SLIDER -->
         </div>
-        <!-- END OF SLIDER WRAPPER -->
     </section>
+
     <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 pb-100">
         <div class="container">
             <div class="row">
