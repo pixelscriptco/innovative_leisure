@@ -120,7 +120,7 @@
                 <div class="col-sm-12 col-md-3 col-lg-3">
                     <div class="contact--info">
                         <h3>Our Email</h3>
-                        <p>info@innovative-leisure.com</p>
+                        <p><a href="mailto:info@innovative-leisure.com">info@innovative-leisure.com</a></p>
 
                     </div>
                 </div>
@@ -128,13 +128,13 @@
                 <div class="col-sm-12 col-md-3 col-lg-3">
                     <div class="contact--info">
                         <h3>WhatsApp</h3>
-                        <p>+971525662703</p>
+                        <p> <a href="tel:+971525662703"> +971525662703</a></p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3 col-lg-3">
                     <div class="contact--info">
                         <h3>Landline</h3>
-                        <p>+97144206775</p>
+                        <p> <a href="tel:+97144206775"> +97144206775</a></p>
                     </div>
                 </div>
                 <!-- .col-lg-4 end -->

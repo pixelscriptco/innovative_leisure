@@ -175,6 +175,10 @@
     padding: 80px 90px 50px 120px;
 }
 
+.whyPartner.featured-2 .heading  {
+        margin-bottom: 30px;
+}
+
 .business-model-details p {
     line-height: 24px;
     margin-bottom: 10px;
@@ -204,4 +208,14 @@
 
 .bg-overlay-dark2:before {
     background-color: #0a1f44;
+}
+
+.contactInfo a:hover {
+    color: #0a1f44;
+
+}
+
+.slide-action a.firstSlideBtn {
+    position : relative;
+    top: 80px;
 }
