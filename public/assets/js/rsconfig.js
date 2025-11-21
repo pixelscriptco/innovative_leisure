@@ -1,13 +1,13 @@
-// Rs Slider In home-agency-3.html & home-corporate-5.html 
+// Rs Slider In home-agency-3.html & home-corporate-5.html
 jQuery(document).ready(function() {
     "use strict";
     jQuery("#slider1").revolution({
         sliderType: "standard",
         jsFileLocation: "../assets/revolution/js/",
         sliderLayout: "fullscreen",
-        delay: 99000,/* sets the Slider's default timeline */
+        delay: 5000,/* sets the Slider's default timeline */
         disableProgressBar: "on",
-        spinner: "spinner0",/* PRELOADER OPTION "0" */ 
+        spinner: "spinner0",/* PRELOADER OPTION "0" */
         /* basic navigation arrows and bullets */
         navigation: {
             keyboardNavigation: "off",
@@ -57,8 +57,8 @@ jQuery(document).ready(function() {
 
     });
 });
- 
-// Rs Slider In home-agency-3.html & home-corporate-5.html 
+
+// Rs Slider In home-agency-3.html & home-corporate-5.html
 jQuery(document).ready(function() {
     "use strict";
     jQuery("#slider2").revolution({
@@ -68,7 +68,7 @@ jQuery(document).ready(function() {
 		 fullScreenOffset: '30%',
         delay: 99000,/* sets the Slider's default timeline */
         disableProgressBar: "on",
-        spinner: "spinner0",/* PRELOADER OPTION "0" */ 
+        spinner: "spinner0",/* PRELOADER OPTION "0" */
         /* basic navigation arrows and bullets */
         navigation: {
             keyboardNavigation: "off",
@@ -118,7 +118,7 @@ jQuery(document).ready(function() {
 
     });
 });
-// Rs Slider In home-agency-3.html & home-corporate-5.html 
+// Rs Slider In home-agency-3.html & home-corporate-5.html
 jQuery(document).ready(function() {
     "use strict";
     jQuery("#slider3").revolution({
@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
         sliderLayout: "auto",
         delay: 99000,/* sets the Slider's default timeline */
         disableProgressBar: "on",
-        spinner: "spinner0",/* PRELOADER OPTION "0" */ 
+        spinner: "spinner0",/* PRELOADER OPTION "0" */
         /* basic navigation arrows and bullets */
         navigation: {
             keyboardNavigation: "off",
@@ -177,7 +177,7 @@ jQuery(document).ready(function() {
 
     });
 });
-// Rs Slider In home-agency-3.html & home-corporate-5.html 
+// Rs Slider In home-agency-3.html & home-corporate-5.html
 jQuery(document).ready(function() {
     "use strict";
     jQuery("#sliderApp").revolution({
@@ -186,7 +186,7 @@ jQuery(document).ready(function() {
         sliderLayout: "auto",
         delay: 99000,/* sets the Slider's default timeline */
         disableProgressBar: "on",
-        spinner: "spinner0",/* PRELOADER OPTION "0" */ 
+        spinner: "spinner0",/* PRELOADER OPTION "0" */
         /* basic navigation arrows and bullets */
         navigation: {
             keyboardNavigation: "off",
@@ -237,7 +237,7 @@ jQuery(document).ready(function() {
     });
 });
 
- 
+
 
 
 // Rs Slider In home-advisor
@@ -250,7 +250,7 @@ jQuery(document).ready(function() {
         delay: 99000,/* sets the Slider's default timeline */
         disableProgressBar: "on",
         minHeight: 500,
-        spinner: "spinner0",/* PRELOADER OPTION "0" */ 
+        spinner: "spinner0",/* PRELOADER OPTION "0" */
         /* basic navigation arrows and bullets */
         navigation: {
             keyboardNavigation: "off",
@@ -300,7 +300,7 @@ jQuery(document).ready(function() {
 
     });
 });
-  
+
 
 jQuery(document).ready(function () {
     "use strict";
@@ -405,4 +405,3 @@ jQuery(document).ready(function () {
         }; /* END OF ON LOAD FUNCTION */
     }()); /* END OF WRAPPING FUNCTION */
 });
- 		
