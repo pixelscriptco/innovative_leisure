@@ -79,3 +79,25 @@ function deleteResponse($message = 'Successfully Deleted', $data = [], $code = 2
 {
     return jsonResponse($message, $data, $code);
 }
+
+function storeToDisk($fileObj, $folder, $name)
+{
+    if ($fileObj) {
+        $image = $name . '.' . $fileObj->getClientOriginalExtension();
+        $fileObj->move(base_path('public/images/' . $folder), $image);
+        $imgname = "images/" . $folder . "/" . $image;
+        return $imgname;
+    } else {
+        return null;
+    }
+}
+
+function getFromDisk($file)
+{
+    return asset($file);
+}
+
+function deleteFromDisk($file)
+{
+    File::delete($file);
+}

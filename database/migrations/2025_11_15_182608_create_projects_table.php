@@ -13,7 +13,13 @@ return new class extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
+            $table->string('title')->nullable();
+            $table->string('location', 500)->nullable();
+            $table->string('service_provided', 800)->nullable();
+            $table->longText('description');
+            $table->date('completion_date')->nullable();
+            $table->string('attachment_url', 500)->nullable();
+            $table->unsignedBigInteger('user_id')->nullable();
             $table->timestamps();
         });
     }

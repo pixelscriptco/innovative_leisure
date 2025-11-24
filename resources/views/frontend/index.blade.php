@@ -497,7 +497,8 @@
         </div>
         <!-- .container end -->
     </section>
-    <section id="case" class="case case-standard case-3col pt-110 bg-gray">
+    @if(count($projects) > 0)
+        <section id="case" class="case case-standard case-3col pt-110 bg-gray">
         <div class="container">
             <div class="row flipInX" data-wow-delay="100ms">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -515,91 +516,29 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="case-carousel-grid">
                         <div class="row">
-                            <!-- Case #1 -->
+                           @foreach($projects as $pRow)
                             <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">
                                 <div class="case-item-container">
                                     <div class="case--img">
-                                        <img src="assets/images/home/project-1.png" alt="case Item">
+                                        <img src="{{$pRow->attachment_url}}" alt="case Item">
                                         <div class="case--hover">
                                             <div class="case--action">
                                                 <a href="#" title="case Item"></a>
                                             </div>
-                                            <!-- .case-action end -->
                                         </div>
-                                        <!-- .case-hover end -->
                                     </div>
-                                    <!-- .case-img end -->
                                     <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Business Tips</a><a href="#">Consulting</a>
-                                        </div> -->
                                         <div class="case--title">
-                                            <h4><a href="javascript:void(0)">Soft Play & Interactives - Supply &
-                                                    Installation</a></h4>
+                                            <h4><a href="javascript:void(0)">{{$pRow->title}}</a></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- . case-item end -->
-                            <!-- Case #2 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-Investment">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/home/project-2.png" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Investment</a><a href="#">Tips</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="javascript:void(0)">Family Entertainment Center Concept
-                                                    Development</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #3 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips filter-Consulting">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/home/project-3.png" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Customer Service</a><a href="#">Consulting</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="javascript:void(0)">Outdoor Net Trail Rectification &
-                                                    Maintenance</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-
-
-                            <!-- . case-item end -->
+                           @endforeach
                         </div>
                         <!-- .row end -->
                         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                            <a href="" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All
+                            <a href="{{ route('project.frontend') }}" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All
                                 Projects </a>
                         </div>
                     </div>
@@ -610,6 +549,7 @@
         <!-- .container end -->
 
     </section>
+    @endif
     <section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
         <div class="bg-section">
             <img src="assets/images/background/2.jpg" alt="background">
@@ -818,5 +758,64 @@
 @section('page-script')
     <script>
         $('.home-li').addClass('active');
+
+        var $items = $('#overlayCarousel .overlay-item');
+        var current = 0;
+        var timer;
+        var interval = 4500;
+
+        function show(i) {
+            $items.stop(true, true).fadeOut(300).eq(i).fadeIn(450);
+            current = i;
+        }
+
+        function next() {
+            show((current1) % $items.length);
+        }
+
+        function prev() {
+            show((current - 1 + $items.length) % $items.length);
+        }
+
+        function start() {
+            timer = setInterval(next, interval);
+        }
+
+        function stop() {
+            clearInterval(timer);
+        }
+
+        if ($items.length) {
+            $items.hide().eq(0).show();
+            start();
+        }
+        $('#overlayNext').on('click', function (e) {
+            e.preventDefault();
+            stop();
+            next();
+            start();
+        });
+        $('#overlayPrev').on('click', function (e) {
+            e.preventDefault();
+            stop();
+            prev();
+            start();
+        });
+
+        // ensure video plays muted
+        var vid = document.getElementById('heroVideo');
+        if (vid) {
+            vid.muted = true;
+            vid.play().catch(function () {
+            });
+        }
+
+        // minimal responsive CSS
+        var css = ''
+            + '#overlayCarousel .overlay-title{font-size:48px;font-weight:700;margin:0 0 12px;}'
+            + '#overlayCarousel .overlay-desc{font-size:18px;margin:0;}'
+            + '@media (max-width:1199px){ #overlayCarousel .overlay-title{font-size:40px;} }'
+            + '@media (max-width:767px){ #overlayCarousel{padding:20px;} #overlayCarousel .overlay-title{font-size:24px;text-align:center;} #overlayCarousel .overlay-inner{text-align:center;} }';
+        $('<style>').prop('type', 'text/css').html(css).appendTo('head');
     </script>
 @endsection

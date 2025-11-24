@@ -1,5 +1,5 @@
 @extends('layouts.admin_layout')
-@section('title') Roles @endsection
+@section('title') Users @endsection
 @section('stylesheets')
     <link rel="stylesheet" href="{{ asset('cp_assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
     <link rel="stylesheet"
@@ -10,15 +10,16 @@
           href="{{ asset('cp_assets/plugins/datatables-rowreorder/css/rowReorder.bootstrap4.min.css') }}">
     <link rel="stylesheet"
           href="{{ asset('cp_assets/plugins/datatables-colreorder/css/colReorder.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('cp_assets/plugins/select2/css/select2.min.css') }}">
 @endsection
 @section('breadcrumb')
     <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Role @if(hasWriteAccess(1))
+                    <h1 class="m-0">Users @if(hasWriteAccess(2))
                             <button type="button" class="btn btn-primary btn-sm rounded-s btn-pill-right" id="new">
-                                <i class="fa fa-location-arrow"></i> New Role
+                                <i class="fa fa-location-arrow"></i> New User
                             </button>
                         @endif</h1>
                 </div>
@@ -26,7 +27,7 @@
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Home</a></li>
                         <li class="breadcrumb-item">Settings</li>
-                        <li class="breadcrumb-item active">Role</li>
+                        <li class="breadcrumb-item active">User</li>
                     </ol>
                 </div>
             </div>
@@ -44,9 +45,11 @@
                             <tr>
                                 <th class="d-none">id</th>
                                 <th>#</th>
+                                <th>Name</th>
                                 <th>Role</th>
-                                <th>Description</th>
-                                <th>Action</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Actions</th>
                             </tr>
                             </thead>
                         </table>
@@ -72,8 +75,9 @@
     <script src="{{ asset('cp_assets/plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
     <script src="{{ asset('cp_assets/plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
     <script src="{{ asset('cp_assets/plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
+    <script src="{{ asset('cp_assets/plugins/select2/js/select2.full.min.js') }}"></script>
 @endsection
 @section('page-scripts')
-    <script src="{{ asset('cp_assets/dist/js/page-js/settings/role.js') }}"></script>
+    <script src="{{ asset('cp_assets/dist/js/page-js/settings/user.js') }}"></script>
 @endsection
 

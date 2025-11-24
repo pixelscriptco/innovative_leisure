@@ -3,12 +3,11 @@
 namespace App\Http\Controllers\Settings\Role;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\PrivilegeRequest;
-use App\Http\Requests\RoleRequest;
+use App\Http\Requests\Admin\Settings\RoleRequest;
+use App\Http\Requests\Admin\Settings\PrivilegeRequest;
 use App\Models\Privilege;
 use App\Models\PrivilegeRole;
 use App\Models\Role;
-use Illuminate\Http\Request;
 use Yajra\DataTables\Facades\DataTables;
 
 class RoleController extends Controller
@@ -51,7 +50,6 @@ class RoleController extends Controller
             $role = Role::findOrFail($id);
         }
         $role->name = $data['name'];
-        $role->company_id = $data['company_id'] ? implode(',', $data['company_id']) : "";
         $role->description = $data['description'];
         $role->save();
         return successResponse();

@@ -10,23 +10,25 @@
           href="{{ asset('cp_assets/plugins/datatables-rowreorder/css/rowReorder.bootstrap4.min.css') }}">
     <link rel="stylesheet"
           href="{{ asset('cp_assets/plugins/datatables-colreorder/css/colReorder.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('cp_assets/plugins/daterangepicker/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('cp_assets/plugins/summernote/summernote-bs4.min.css') }}">
 @endsection
 @section('breadcrumb')
     <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Role @if(hasWriteAccess(1))
+                    <h1 class="m-0">Projects @if(hasWriteAccess(3))
                             <button type="button" class="btn btn-primary btn-sm rounded-s btn-pill-right" id="new">
-                                <i class="fa fa-location-arrow"></i> New Role
+                                <i class="fa fa-location-arrow"></i> New Project
                             </button>
                         @endif</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Home</a></li>
-                        <li class="breadcrumb-item">Settings</li>
-                        <li class="breadcrumb-item active">Role</li>
+                        <li class="breadcrumb-item">Project</li>
+                        <li class="breadcrumb-item active">List</li>
                     </ol>
                 </div>
             </div>
@@ -39,13 +41,15 @@
             <div class="card shadow-none">
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table id="dataTable" class="table table-hover">
+                        <table id="dataTable" class="table table-hover w-100">
                             <thead>
                             <tr>
                                 <th class="d-none">id</th>
                                 <th>#</th>
-                                <th>Role</th>
-                                <th>Description</th>
+                                <th>Attachment</th>
+                                <th>Title</th>
+                                <th>Completion Date</th>
+                                <th>Location</th>
                                 <th>Action</th>
                             </tr>
                             </thead>
@@ -72,8 +76,11 @@
     <script src="{{ asset('cp_assets/plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
     <script src="{{ asset('cp_assets/plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
     <script src="{{ asset('cp_assets/plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
+    <script src="{{ asset('cp_assets/plugins/moment/moment.min.js') }}"></script>
+    <script src="{{ asset('cp_assets/plugins/daterangepicker/daterangepicker.js') }}"></script>
+    <script src="{{ asset('cp_assets/plugins/summernote/summernote-bs4.min.js') }}"></script>
 @endsection
 @section('page-scripts')
-    <script src="{{ asset('cp_assets/dist/js/page-js/settings/role.js') }}"></script>
+    <script src="{{ asset('cp_assets/dist/js/page-js/project/project.js') }}"></script>
 @endsection
 
