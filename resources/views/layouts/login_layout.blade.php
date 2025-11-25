@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
     <!--end::Accessibility Meta Tags-->
     <!--begin::Primary Meta Tags-->
-    <meta name="title" content="AdminLTE 4 | Login Page" />
+    <meta name="title" content="Innovative Leisure | Login Page" />
     <meta name="author" content="ColorlibHQ" />
     <meta
         name="description"
@@ -57,7 +57,7 @@
 </head>
 <!--end::Head-->
 <!--begin::Body-->
-<body class="login-page bg-body-secondary">
+<body class="login-page bg-dark">
 @yield('content')
 <!-- /.login-box -->
 <!--begin::Third Party Plugin(OverlayScrollbars)-->

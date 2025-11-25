@@ -2,7 +2,7 @@
 @section('content')
     <div class="login-box">
         <div class="login-logo">
-            <a href="javascript:void(0)">Innovative Leisure</a>
+            <a href="javascript:void(0)"><img src="{{ asset('assets/images/logo/logo-plain.png') }}" class="w-50"></a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">

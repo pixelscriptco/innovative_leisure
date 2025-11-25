@@ -10,16 +10,16 @@
     <link
         href="http://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800%7CRoboto:300i,400,400i,500,500i,700"
         rel="stylesheet" type="text/css">
-    <link href="assets/css/external.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/external.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
-    <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/settings.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/layers.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/navigation.css') }}">
     <!--[if lt IE 9]>
-    <script src="assets/js/html5shiv.js"></script>
-    <script src="assets/js/respond.min.js"></script>
+    <script src="{{ asset('assets/js/html5shiv.js') }}"></script>
+    <script src="{{ asset('assets/js/respond.min.js') }}"></script>
     <![endif]-->
     <title>Innovative Leisure</title>
 </head>
@@ -32,8 +32,7 @@
         <nav id="primary-menu" class="navbar navbar-expand-lg navbar-light navbar-bordered">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img class="logo logo-light" src="assets/images/logo/logo-plain.png" alt="Innovative Leisure">
-                    <img class="logo logo-dark" src="assets/images/logo/logo-dark.png" alt="Innovative Leisure">
+                    <img class="logo logo-light" src="{{ asset('assets/images/logo/logo-plain.png') }}" alt="Innovative Leisure">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,6 +56,36 @@
                             <a href="{{ url('contact-us') }}" class="menu-item">Contact Us</a>
                         </li>
                     </ul>
+                    <div class="module-container">
+                        <div class="module module-cart pull-left">
+                            <div class="module-icon cart-icon">
+                                <i class="lnr lnr-cart"></i>
+                                <span class="title">shop cart</span>
+                                <label class="module-label cart-product-count">0</label>
+                            </div>
+                            <div class="module-content module-box cart-box">
+                                <div class="cart-overview">
+                                    <ul class="list-unstyled">
+                                        <div class="reverse-spinner"></div>
+                                    </ul>
+                                </div>
+                                <div class="cart-total">
+                                    <div class="total-desc">
+                                        Subtotal:
+                                    </div>
+                                    <div class="total-price cart-total-price color-gold">
+                                        AED 0.00
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                </div>
+                                <div class="cart--control">
+                                    <a class="btn btn--primary btn--rounded" href="{{ route('cart.view') }}">view cart</a>
+                                    <a class="btn btn--white btn--bordered btn--rounded" href="#">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -70,7 +99,7 @@
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-3 col-lg-3 footer--widget widget-about">
                         <div class="widget-content">
-                            <img class="footer-logo" src="assets/images/logo/logo-plain.png" width="200" alt="logo">
+                            <img class="footer-logo" src="{{ asset('assets/images/logo/logo-plain.png') }}" width="200" alt="logo">
                             <p class="color-white">Innovative Leisure: Your turnkey business realization partner for
                                 profitable leisure ventures across UAE and GCC</p>
                             <div class="social-icons">
@@ -156,22 +185,23 @@
 
 <!-- Footer Scripts
 ============================================= -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/functions.js"></script>
+<script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins.js') }}"></script>
+<script src="{{ asset('assets/js/functions.js') }}"></script>
 <!-- RS5.0 Core JS Files -->
-<script src="assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-<script src="assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="{{ asset('assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0') }}"></script>
+<script src="{{ asset('assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
 <!-- RS Configration JS Files -->
-<script src="assets/js/rsconfig.js"></script>
+<script src="{{ asset('assets/js/rsconfig.js') }}"></script>
+<script src="{{ asset('assets/js/product-config.js') }}"></script>
 @yield('page-script')
 </body>
 </html>

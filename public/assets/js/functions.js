@@ -10,7 +10,7 @@
 	7.  COUNTER UP
 	8.  COUNTDOWN DATE
 	9.  AJAX MAILCHIMP
-	10. AJAX CAMPAIGN MONITOR 
+	10. AJAX CAMPAIGN MONITOR
 	11. OWL CAROUSEL
 	12. MAGNIFIC POPUP
 	13. MAGNIFIC POPUP VIDEO
@@ -100,7 +100,7 @@
 
     // If Click on [ Document ] and this click outside [ module ]
     $(document).on("click", function(e) {
-        if ($(e.target).is(".module, .module-content, .search-form input,.cart-control .btn,.cart-overview a.cancel,.cart-box") === false) {
+        if ($(e.target).is(".module, .module-content, .search-form input,.cart-control .btn,.cart-overview a.cancel,.cart-box,.cart-cancel") === false) {
             $module.removeClass("module-active"); // Remove the class .active form .module when click on outside the div.
             e.stopPropagation();
         }
@@ -229,7 +229,7 @@
             enabled: true
         }
     });
-    
+
     /* ------------------  MAGNIFIC POPUP VIDEO ------------------ */
 
     $('.popup-video,.popup-gmaps').magnificPopup({

@@ -14,9 +14,11 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('product_name')->nullable();
-            $table->double('amount', 10,2)->default(0);
+            $table->string('attachment_url')->nullable();
+            $table->double('unit_price')->default(0);
             $table->unsignedInteger('quantity')->default(0);
             $table->unsignedInteger('user_id')->nullable();
+            $table->boolean('is_active')->default(1);
             $table->timestamps();
         });
     }

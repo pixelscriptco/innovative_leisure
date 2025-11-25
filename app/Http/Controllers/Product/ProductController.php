@@ -4,10 +4,11 @@ namespace App\Http\Controllers\Product;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\ProductRequest;
 use App\Models\Product;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\Facades\DataTables;
 
-class Productontroller extends Controller
+class ProductController extends Controller
 {
     protected function list()
     {
@@ -19,7 +20,7 @@ class Productontroller extends Controller
 
     protected function listDT()
     {
-        $products = Product::query();
+        $products = Product::where('is_active', 1);
         return DataTables::eloquent($products)
             ->setRowAttr(['data-id' => '{{$id}}'])
             ->addIndexColumn()
@@ -45,22 +46,20 @@ class Productontroller extends Controller
 
     protected function save(ProductRequest $data, $id = false)
     {
-//        dd($data->all());
         DB::beginTransaction();
         try {
             $product = new Product();
             if ($id) {
                 $product = Product::findOrFail($id);
             }
-            $product->title = $data['title'];
-            $product->location = $data['location'];
-            $product->completion_date = date('Y-m-d', strtotime($data['completion_date']));
-            $product->service_provided = $data['service_provided'];
-            $product->description = $data['project_description'];
+            $product->product_name = $data['product_name'];
+            $product->quantity = $data['product_quantity'];
+            $product->unit_price = $data['unit_price'];
             if ($data['attachment_url']) {
                 deleteFromDisk($product->attachment_url);
-                $product->attachment_url = storeToDisk($data['attachment_url'], 'projects', time());
+                $product->attachment_url = storeToDisk($data['attachment_url'], 'products', time());
             }
+            $product->user_id = Auth::id();
             $product->save();
             DB::commit();
             return successResponse();
@@ -68,12 +67,11 @@ class Productontroller extends Controller
             DB::rollBack();
             return errorResponse($e->getMessage());
         }
-
     }
 
     protected function delete($id)
     {
-        Product::whereId($id)->delete();
+        Product::whereId($id)->update(['is_active' => 0]);
         return deleteResponse();
     }
 }

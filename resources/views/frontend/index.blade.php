@@ -1,184 +1,40 @@
 @extends('layouts.front_lay')
 @section('content')
     <section id="slider" class="slider slide-overlay-dark" style="position:relative;">
-        <div class="rev_slider_wrapper">
+        <div class="slider-wrapper">
+            <video autoplay muted loop class="bg-video">
+                <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="content-slider">
+                <div class="slide active">
+                    <div><span class="font-40">Invest.</span> <span class="font-30">Innovate. Inspire.</span></div>
+                    <p class="text-white">Invest in world-class leisure and entertainment ventures<br>
+                        with a turnkey solutions partner you can trust</p>
+                    <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">
+                        Our Services
+                    </a>
+                </div>
 
-            <!-- STATIC BACKGROUND VIDEO (only once) -->
-            <div class="video-bg"
-                 style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;">
-                <video autoplay muted loop playsinline preload="auto"
-                       style="width:100%;height:100%;object-fit:cover;">
-                    <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
-                </video>
+                <div class="slide">
+                    <div><span class="font-30">Invest.</span><span class="font-40"> Innovate. </span><span class="font-30">Inspire.</span></div>
+                    <p class="text-white">Innovating immersive attractions through creative design,<br>
+                        smart technology, and seamless execution.</p>
+                </div>
+
+                <div class="slide">
+                    <div><span class="font-30">Invest. Innovate.</span><span class="font-40"> Inspire.</span></div>
+                    <p class="text-white">Inspiring growth through strategic partnerships and scalable<br>
+                        business models in leisure and entertainment.</p>
+                    <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">
+                        Business Models
+                    </a>
+                </div>
             </div>
-
-            <!-- DARK OVERLAY -->
-            <div class="video-overlay"
-                 style="position:absolute;inset:0;background:rgba(0,0,0,0.7);z-index:1;"></div>
-
-            <!-- SLIDER -->
-            <div id="slider1" class="rev_slider" data-version="5.0" style="z-index:2; position:relative;">
-                <ul>
-
-                    <!-- ======================================= -->
-                    <!-- SLIDE 1 -->
-                    <!-- ======================================= -->
-                    <li data-transition="zoomout">
-
-                        <!-- TRANSPARENT BACKGROUND (required by Rev Slider) -->
-{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
-{{--                             class="rev-slidebg"--}}
-{{--                             data-bgfit="cover"--}}
-{{--                             data-bgposition="center center"--}}
-{{--                             data-bgrepeat="no-repeat">--}}
-
-                        <!-- HEADLINE -->
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60','50','40','30']"
-                             data-lineheight="['60','60','60','60']"
-                             data-frames='[
-                            {"delay":500,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--headline">
-                                Invest. <span class="font-40">Innovate. Inspire.</span>
-                            </div>
-                        </div>
-
-                        <!-- SUBTEXT -->
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['100','100','100','100']"
-                             data-frames='[
-                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--bio">
-                                Invest in world-class leisure and entertainment ventures<br>
-                                with a turnkey solutions partner you can trust.
-                            </div>
-                        </div>
-
-                        <!-- BUTTON -->
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['176','176','200','210']"
-                             data-frames='[
-                            {"delay":1300,"speed":600,"from":"x:-50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide-action">
-                                <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">
-                                    Our Services
-                                </a>
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <!-- ======================================= -->
-                    <!-- SLIDE 2 -->
-                    <!-- ======================================= -->
-                    <li data-transition="zoomout">
-
-{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
-{{--                             class="rev-slidebg"--}}
-{{--                             data-bgfit="cover"--}}
-{{--                             data-bgposition="center center"--}}
-{{--                             data-bgrepeat="no-repeat">--}}
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60','50','40','30']"
-                             data-frames='[
-                            {"delay":700,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--headline">
-                                <span class="font-40">Invest.</span> Innovate. <span class="font-40">Inspire.</span>
-                            </div>
-                        </div>
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['100','100','100','100']"
-                             data-frames='[
-                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--bio">
-                                Innovating immersive attractions through creative design,<br>
-                                smart technology, and seamless execution.
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <!-- ======================================= -->
-                    <!-- SLIDE 3 -->
-                    <!-- ======================================= -->
-                    <li data-transition="zoomout">
-
-{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
-{{--                             class="rev-slidebg"--}}
-{{--                             data-bgfit="cover"--}}
-{{--                             data-bgposition="center center"--}}
-{{--                             data-bgrepeat="no-repeat">--}}
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60','50','40','30']"
-                             data-frames='[
-                            {"delay":500,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--headline">
-                                <span class="font-40">Invest. Innovate.</span> Inspire.
-                            </div>
-                        </div>
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['100','100','100','100']"
-                             data-frames='[
-                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--bio">
-                                Inspiring growth through strategic partnerships and scalable<br>
-                                business models in leisure and entertainment.
-                            </div>
-                        </div>
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['176','176','200','210']"
-                             data-frames='[
-                            {"delay":1300,"speed":600,"from":"x:-50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">
-                                Business Models
-                            </a>
-                        </div>
-
-                    </li>
-
-                </ul>
-            </div>
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
         </div>
+
     </section>
 
     <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 pb-100">
@@ -759,63 +615,65 @@
     <script>
         $('.home-li').addClass('active');
 
-        var $items = $('#overlayCarousel .overlay-item');
-        var current = 0;
-        var timer;
-        var interval = 4500;
+        let slides = document.querySelectorAll(".slide");
+        let currentIndex = 0;
+        let isAnimating = false; // avoid multiple transitions
 
-        function show(i) {
-            $items.stop(true, true).fadeOut(300).eq(i).fadeIn(450);
-            current = i;
-        }
+        function goToSlide(nextIndex) {
+            if (isAnimating) return;
+            isAnimating = true;
 
-        function next() {
-            show((current1) % $items.length);
-        }
+            let currentSlide = slides[currentIndex];
+            let nextSlide = slides[nextIndex];
 
-        function prev() {
-            show((current - 1 + $items.length) % $items.length);
-        }
+            // Fade out current slide
+            currentSlide.classList.remove("active");
+            currentSlide.classList.add("fade-out");
 
-        function start() {
-            timer = setInterval(next, interval);
-        }
+            // Wait for fade-out to finish
+            currentSlide.addEventListener("transitionend", function handler() {
 
-        function stop() {
-            clearInterval(timer);
-        }
+                currentSlide.classList.remove("fade-out");
 
-        if ($items.length) {
-            $items.hide().eq(0).show();
-            start();
-        }
-        $('#overlayNext').on('click', function (e) {
-            e.preventDefault();
-            stop();
-            next();
-            start();
-        });
-        $('#overlayPrev').on('click', function (e) {
-            e.preventDefault();
-            stop();
-            prev();
-            start();
-        });
+                // Show next slide
+                nextSlide.classList.add("active");
 
-        // ensure video plays muted
-        var vid = document.getElementById('heroVideo');
-        if (vid) {
-            vid.muted = true;
-            vid.play().catch(function () {
+                currentSlide.removeEventListener("transitionend", handler);
+
+                currentIndex = nextIndex;
+                isAnimating = false;
             });
         }
 
-        // minimal responsive CSS
-        var css = ''
-            + '#overlayCarousel .overlay-title{font-size:48px;font-weight:700;margin:0 0 12px;}'
-            + '#overlayCarousel .overlay-desc{font-size:18px;margin:0;}'
-            + '@media (max-width:1199px){ #overlayCarousel .overlay-title{font-size:40px;} }'
-            + '@media (max-width:767px){ #overlayCarousel{padding:20px;} #overlayCarousel .overlay-title{font-size:24px;text-align:center;} #overlayCarousel .overlay-inner{text-align:center;} }';
-        $('<style>').prop('type', 'text/css').html(css).appendTo('head');
+        function showNextSlide() {
+            let nextIndex = (currentIndex + 1) % slides.length;
+            goToSlide(nextIndex);
+        }
+
+        function showPrevSlide() {
+            let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+            goToSlide(prevIndex);
+        }
+
+        // Auto slide every 4s
+        let slideInterval = setInterval(showNextSlide, 4000);
+
+        // Reset interval when manually navigating
+        function resetInterval() {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(showNextSlide, 4000);
+        }
+
+        // Arrow events
+        document.querySelector(".next").addEventListener("click", () => {
+            showNextSlide();
+            resetInterval();
+        });
+
+        document.querySelector(".prev").addEventListener("click", () => {
+            showPrevSlide();
+            resetInterval();
+        });
+
     </script>
 @endsection
