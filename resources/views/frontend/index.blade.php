@@ -181,7 +181,7 @@
         </div>
     </section>
 
-    <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 pb-100">
+    <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 ">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">

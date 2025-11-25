@@ -219,3 +219,11 @@
     position : relative;
     top: 80px;
 }
+
+@media only screen and (max-width: 767px) {
+
+        .whatWedoSection img {
+            margin-bottom: 10px;
+        }
+
+}
