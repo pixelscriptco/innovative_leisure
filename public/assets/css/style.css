@@ -349,6 +349,10 @@ p {
 	font-size: 20px;
 }
 
+.font-30 {
+    font-size: 30px;
+}
+
 .font-40 {
 	font-size: 40px;
 }
@@ -407,7 +411,7 @@ text-center-sm {
 }
 
 .color-gold {
-	color: #c2a146 !important;	
+	color: #c2a146 !important;
 }
 
 .color-green {
@@ -11894,5 +11898,5 @@ footer .widget-newsletter form {
 
 
 .whatWedoSection img {
- max-width: 100% !important;   
+ max-width: 100% !important;
 }

@@ -1,184 +1,40 @@
 @extends('layouts.front_lay')
 @section('content')
     <section id="slider" class="slider slide-overlay-dark" style="position:relative;">
-        <div class="rev_slider_wrapper">
+        <div class="slider-wrapper">
+            <video autoplay muted loop class="bg-video">
+                <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="content-slider">
+                <div class="slide active">
+                    <div><span class="font-40">Invest.</span> <span class="font-30">Innovate. Inspire.</span></div>
+                    <p class="text-white">Invest in world-class leisure and entertainment ventures<br>
+                        with a turnkey solutions partner you can trust</p>
+                    <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">
+                        Our Services
+                    </a>
+                </div>
 
-            <!-- STATIC BACKGROUND VIDEO (only once) -->
-            <div class="video-bg"
-                 style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;">
-                <video autoplay muted loop playsinline preload="auto"
-                       style="width:100%;height:100%;object-fit:cover;">
-                    <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
-                </video>
+                <div class="slide">
+                    <div><span class="font-30">Invest.</span><span class="font-40"> Innovate. </span><span class="font-30">Inspire.</span></div>
+                    <p class="text-white">Innovating immersive attractions through creative design,<br>
+                        smart technology, and seamless execution.</p>
+                </div>
+
+                <div class="slide">
+                    <div><span class="font-30">Invest. Innovate.</span><span class="font-40"> Inspire.</span></div>
+                    <p class="text-white">Inspiring growth through strategic partnerships and scalable<br>
+                        business models in leisure and entertainment.</p>
+                    <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">
+                        Business Models
+                    </a>
+                </div>
             </div>
-
-            <!-- DARK OVERLAY -->
-            <div class="video-overlay"
-                 style="position:absolute;inset:0;background:rgba(0,0,0,0.7);z-index:1;"></div>
-
-            <!-- SLIDER -->
-            <div id="slider1" class="rev_slider" data-version="5.0" style="z-index:2; position:relative;">
-                <ul>
-
-                    <!-- ======================================= -->
-                    <!-- SLIDE 1 -->
-                    <!-- ======================================= -->
-                    <li data-transition="zoomout">
-
-                        <!-- TRANSPARENT BACKGROUND (required by Rev Slider) -->
-{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
-{{--                             class="rev-slidebg"--}}
-{{--                             data-bgfit="cover"--}}
-{{--                             data-bgposition="center center"--}}
-{{--                             data-bgrepeat="no-repeat">--}}
-
-                        <!-- HEADLINE -->
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60','50','40','30']"
-                             data-lineheight="['60','60','60','60']"
-                             data-frames='[
-                            {"delay":500,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--headline">
-                                Invest. <span class="font-40">Innovate. Inspire.</span>
-                            </div>
-                        </div>
-
-                        <!-- SUBTEXT -->
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['100','100','100','100']"
-                             data-frames='[
-                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--bio">
-                                Invest in world-class leisure and entertainment ventures<br>
-                                with a turnkey solutions partner you can trust.
-                            </div>
-                        </div>
-
-                        <!-- BUTTON -->
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['176','176','200','210']"
-                             data-frames='[
-                            {"delay":1300,"speed":600,"from":"x:-50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide-action">
-                                <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('service') }}">
-                                    Our Services
-                                </a>
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <!-- ======================================= -->
-                    <!-- SLIDE 2 -->
-                    <!-- ======================================= -->
-                    <li data-transition="zoomout">
-
-{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
-{{--                             class="rev-slidebg"--}}
-{{--                             data-bgfit="cover"--}}
-{{--                             data-bgposition="center center"--}}
-{{--                             data-bgrepeat="no-repeat">--}}
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60','50','40','30']"
-                             data-frames='[
-                            {"delay":700,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--headline">
-                                <span class="font-40">Invest.</span> Innovate. <span class="font-40">Inspire.</span>
-                            </div>
-                        </div>
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['100','100','100','100']"
-                             data-frames='[
-                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--bio">
-                                Innovating immersive attractions through creative design,<br>
-                                smart technology, and seamless execution.
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <!-- ======================================= -->
-                    <!-- SLIDE 3 -->
-                    <!-- ======================================= -->
-                    <li data-transition="zoomout">
-
-{{--                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw="--}}
-{{--                             class="rev-slidebg"--}}
-{{--                             data-bgfit="cover"--}}
-{{--                             data-bgposition="center center"--}}
-{{--                             data-bgrepeat="no-repeat">--}}
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['-5','-5','-5','10']"
-                             data-fontsize="['60','50','40','30']"
-                             data-frames='[
-                            {"delay":500,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--headline">
-                                <span class="font-40">Invest. Innovate.</span> Inspire.
-                            </div>
-                        </div>
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['100','100','100','100']"
-                             data-frames='[
-                            {"delay":900,"speed":600,"from":"y:50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <div class="slide--bio">
-                                Inspiring growth through strategic partnerships and scalable<br>
-                                business models in leisure and entertainment.
-                            </div>
-                        </div>
-
-                        <div class="tp-caption"
-                             data-x="['left','left','left','left']"
-                             data-hoffset="['70','50','50','20']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-voffset="['176','176','200','210']"
-                             data-frames='[
-                            {"delay":1300,"speed":600,"from":"x:-50px;opacity:0;","to":"o:1;"}
-                         ]'>
-                            <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">
-                                Business Models
-                            </a>
-                        </div>
-
-                    </li>
-
-                </ul>
-            </div>
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
         </div>
+
     </section>
 
     <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 ">
@@ -497,7 +353,8 @@
         </div>
         <!-- .container end -->
     </section>
-    <section id="case" class="case case-standard case-3col pt-110 bg-gray">
+    @if(count($projects) > 0)
+        <section id="case" class="case case-standard case-3col pt-110 bg-gray">
         <div class="container">
             <div class="row flipInX" data-wow-delay="100ms">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -515,91 +372,29 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="case-carousel-grid">
                         <div class="row">
-                            <!-- Case #1 -->
+                           @foreach($projects as $pRow)
                             <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">
                                 <div class="case-item-container">
                                     <div class="case--img">
-                                        <img src="assets/images/home/project-1.png" alt="case Item">
+                                        <img src="{{$pRow->attachment_url}}" alt="case Item">
                                         <div class="case--hover">
                                             <div class="case--action">
                                                 <a href="#" title="case Item"></a>
                                             </div>
-                                            <!-- .case-action end -->
                                         </div>
-                                        <!-- .case-hover end -->
                                     </div>
-                                    <!-- .case-img end -->
                                     <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Business Tips</a><a href="#">Consulting</a>
-                                        </div> -->
                                         <div class="case--title">
-                                            <h4><a href="javascript:void(0)">Soft Play & Interactives - Supply &
-                                                    Installation</a></h4>
+                                            <h4><a href="javascript:void(0)">{{$pRow->title}}</a></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- . case-item end -->
-                            <!-- Case #2 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-Investment">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/home/project-2.png" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Investment</a><a href="#">Tips</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="javascript:void(0)">Family Entertainment Center Concept
-                                                    Development</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-                            <!-- Case #3 -->
-                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips filter-Consulting">
-                                <div class="case-item-container">
-                                    <div class="case--img">
-                                        <img src="assets/images/home/project-3.png" alt="case Item">
-                                        <div class="case--hover">
-                                            <div class="case--action">
-                                                <a href="#" title="case Item"></a>
-                                            </div>
-                                            <!-- .case-action end -->
-                                        </div>
-                                        <!-- .case-hover end -->
-                                    </div>
-                                    <!-- .case-img end -->
-                                    <div class="case--content">
-                                        <!-- <div class="case--cat">
-                                            <a href="#">Customer Service</a><a href="#">Consulting</a>
-                                        </div> -->
-                                        <div class="case--title">
-                                            <h4><a href="javascript:void(0)">Outdoor Net Trail Rectification &
-                                                    Maintenance</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- . case-item end -->
-
-
-                            <!-- . case-item end -->
+                           @endforeach
                         </div>
                         <!-- .row end -->
                         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                            <a href="" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All
+                            <a href="{{ route('project.frontend') }}" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All
                                 Projects </a>
                         </div>
                     </div>
@@ -610,6 +405,7 @@
         <!-- .container end -->
 
     </section>
+    @endif
     <section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
         <div class="bg-section">
             <img src="assets/images/background/2.jpg" alt="background">
@@ -818,5 +614,66 @@
 @section('page-script')
     <script>
         $('.home-li').addClass('active');
+
+        let slides = document.querySelectorAll(".slide");
+        let currentIndex = 0;
+        let isAnimating = false; // avoid multiple transitions
+
+        function goToSlide(nextIndex) {
+            if (isAnimating) return;
+            isAnimating = true;
+
+            let currentSlide = slides[currentIndex];
+            let nextSlide = slides[nextIndex];
+
+            // Fade out current slide
+            currentSlide.classList.remove("active");
+            currentSlide.classList.add("fade-out");
+
+            // Wait for fade-out to finish
+            currentSlide.addEventListener("transitionend", function handler() {
+
+                currentSlide.classList.remove("fade-out");
+
+                // Show next slide
+                nextSlide.classList.add("active");
+
+                currentSlide.removeEventListener("transitionend", handler);
+
+                currentIndex = nextIndex;
+                isAnimating = false;
+            });
+        }
+
+        function showNextSlide() {
+            let nextIndex = (currentIndex + 1) % slides.length;
+            goToSlide(nextIndex);
+        }
+
+        function showPrevSlide() {
+            let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+            goToSlide(prevIndex);
+        }
+
+        // Auto slide every 4s
+        let slideInterval = setInterval(showNextSlide, 4000);
+
+        // Reset interval when manually navigating
+        function resetInterval() {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(showNextSlide, 4000);
+        }
+
+        // Arrow events
+        document.querySelector(".next").addEventListener("click", () => {
+            showNextSlide();
+            resetInterval();
+        });
+
+        document.querySelector(".prev").addEventListener("click", () => {
+            showPrevSlide();
+            resetInterval();
+        });
+
     </script>
 @endsection

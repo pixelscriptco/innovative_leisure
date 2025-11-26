@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
     <!--end::Accessibility Meta Tags-->
     <!--begin::Primary Meta Tags-->
-    <meta name="title" content="AdminLTE 4 | Login Page" />
+    <meta name="title" content="Innovative Leisure | Login Page" />
     <meta name="author" content="ColorlibHQ" />
     <meta
         name="description"
@@ -25,7 +25,7 @@
     <!--begin::Accessibility Features-->
     <!-- Skip links will be dynamically added by accessibility.js -->
     <meta name="supported-color-schemes" content="light dark" />
-    <link rel="preload" href="{{ url('cp_assets/css/adminlte.css') }}" as="style" />
+    <link rel="preload" href="{{ url('cp_assets/dist/css/adminlte.css') }}" as="style" />
     <!--end::Accessibility Features-->
     <!--begin::Fonts-->
     <link
@@ -52,12 +52,12 @@
     />
     <!--end::Third Party Plugin(Bootstrap Icons)-->
     <!--begin::Required Plugin(AdminLTE)-->
-    <link rel="stylesheet" href="{{ url('cp_assets/css/adminlte.css') }}" />
+    <link rel="stylesheet" href="{{ url('cp_assets/dist/css/adminlte.css') }}" />
     <!--end::Required Plugin(AdminLTE)-->
 </head>
 <!--end::Head-->
 <!--begin::Body-->
-<body class="login-page bg-body-secondary">
+<body class="login-page bg-dark">
 @yield('content')
 <!-- /.login-box -->
 <!--begin::Third Party Plugin(OverlayScrollbars)-->
@@ -76,7 +76,7 @@
     crossorigin="anonymous"
 ></script>
 <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
-<script src="{{ url('cp_assets/js/adminlte.js') }}"></script>
+<script src="{{ url('cp_assets/dist/js/adminlte.js') }}"></script>
 <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
 <script>
     const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';
