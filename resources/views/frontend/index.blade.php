@@ -230,7 +230,7 @@
 
 
 
-    <section id="infoCards" class="info-cards WhatSetsApart pt-80 ">
+    <section id="infoCards" class="info-cards WhatSetsApart  ">
         <div class="container">
             <div class="heading">
                 <h2 class="heading--title mb-5 text-center">What Sets Us Apart</h2>
@@ -343,8 +343,8 @@
                 </div>
                 <!-- .col-lg-6 end -->
                 <div class="col-sm-12 col-md-12 col-lg-6 pr-0">
-                    <div class="banner--img">
-                        <img src="assets/images/home/why-partner-with-us.png" alt="banner img">
+                    <div class="banner--img ">
+                        <img src="assets/images/home/why-partner-with-us.png" class="imgWidth" alt="banner img">
                     </div>
                 </div>
                 <!-- .col-lg-6 end -->
@@ -494,7 +494,7 @@
         </div>
         <div class="section-divider"></div>
     </section>
-    <section id="cta1" class="cta cta-1 bg-theme">
+    <section id="cta1" class="cta businessCta cta-1 bg-theme">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -509,7 +509,7 @@
         </div>
         <!-- .container -->
     </section>
-    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 bg-gray">
+    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 mobpb-60 bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -535,7 +535,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/home/about-us.png" alt="banner img">
+                                    <img src="assets/images/home/about-us.png" class="imgWidth" alt="banner img">
                                 </div>
                             </div>
 
@@ -546,7 +546,7 @@
         </div>
     </section>
 
-    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100">
+    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 mobpb-60">
         <div class="container">
             <div class="heading">
                 <h2 class="heading--title mb-5">Our Core Values</h2>
