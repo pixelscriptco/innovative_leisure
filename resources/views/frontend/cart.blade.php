@@ -10,11 +10,11 @@
                 <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                     <div class="title text-center">
                         <div class="title--heading">
-                            <h1>Products</h1>
+                            <h1>Cart</h1>
                         </div>
                         <ol class="breadcrumb d-flex justify-content-center">
                             <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-                            <li class="breadcrumb-item active">Products</li>
+                            <li class="breadcrumb-item active">Cart</li>
                         </ol>
                     </div>
                 </div>

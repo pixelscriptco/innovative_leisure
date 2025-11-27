@@ -15,8 +15,9 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->string('title')->nullable();
             $table->string('location', 500)->nullable();
-            $table->string('service_provided', 800)->nullable();
+            $table->string('service_provided', 1000)->nullable();
             $table->longText('description');
+            $table->string('capacity', 1000)->nullable();
             $table->date('completion_date')->nullable();
             $table->string('attachment_url', 500)->nullable();
             $table->unsignedBigInteger('user_id')->nullable();

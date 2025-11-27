@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
         DB::table('users')->insert($this->getUsers());
         DB::table('privileges')->insert($this->getPrivilege());
         DB::table('privilege_roles')->insert($this->getPrivilegeRole());
+        DB::table('projects')->insert($this->getProjects());
     }
 
     private function getRoles()
@@ -61,9 +62,9 @@ class DatabaseSeeder extends Seeder
     private function getProjects()
     {
         return [
-            ['id' => 1, 'title' => 'Soft Play Supply & Installation', 'location' => 'Cityland Mall, Dubai, UAE', 'service_provided' => 'Concept design, equipment supply & installation, safety compliance, turnkey setup', 'description' => '<p>Delivered a <b>vibrant, safe, and engaging soft play center</b> featuring 6 slides, toddler and kids play areas, trampoline, obstacle course, creative workshops, performing arts space, restaurant and bakery, and party rooms. Designed to <b>entertain up to 250 kids at a time</b> with maximum safety and fun.</p>', 'completion_date' => '2025-05-01', 'user_id => 1'],
-            ['id' => 2, 'title' => 'Interactive Play Supply & Installation', 'location' => 'Cityland Mall, Dubai, UAE', 'service_provided' => 'Equipment supply & installation, interactive system integration, safety testing', 'description' => '<p>Installed a <b>dynamic interactive zone</b> with digital trampolines, Interactive Valo Jump, toddler jumping interactives, customized tag challenges, and animated Robo Play challenges. Designed to <b>engage 25 kids at a time</b> and provide a tech-driven, fun, and educational play experience.</p>', 'completion_date' => '2025-05-01', 'user_id => 1'],
-            ['id' => 3, 'title' => 'After Sales Service / Maintenance', 'location' => 'Cityland Mall, Dubai, UAE', 'service_provided' => 'Ongoing operations support, maintenance, and safety assurance', 'description' => '<p>Provided <b>comprehensive after-sales support</b> including annual maintenance, regular cleaning and sanitization, safety recertification, equipment checks, and wear & tear refurbishing, ensuring <b>long-term safety and peak performance</b> of all play installations.</p>', 'user_id => 1'],
+            ['id' => 1, 'title' => 'Soft Play Supply & Installation', 'location' => 'Cityland Mall, Dubai, UAE', 'service_provided' => 'Concept design, equipment supply & installation, safety compliance, turnkey setup', 'description' => '<p>Delivered a <b>vibrant, safe, and engaging soft play center</b> featuring 6 slides, toddler and kids play areas, trampoline, obstacle course, creative workshops, performing arts space, restaurant and bakery, and party rooms. Designed to <b>entertain up to 250 kids at a time</b> with maximum safety and fun.</p>', 'completion_date' => '2025-05-01', 'user_id' => 1],
+            ['id' => 2, 'title' => 'Interactive Play Supply & Installation', 'location' => 'Cityland Mall, Dubai, UAE', 'service_provided' => 'Equipment supply & installation, interactive system integration, safety testing', 'description' => '<p>Installed a <b>dynamic interactive zone</b> with digital trampolines, Interactive Valo Jump, toddler jumping interactives, customized tag challenges, and animated Robo Play challenges. Designed to <b>engage 25 kids at a time</b> and provide a tech-driven, fun, and educational play experience.</p>', 'completion_date' => '2025-05-01', 'user_id' => 1],
+            ['id' => 3, 'title' => 'After Sales Service / Maintenance', 'location' => 'Cityland Mall, Dubai, UAE', 'service_provided' => 'Ongoing operations support, maintenance, and safety assurance', 'description' => '<p>Provided <b>comprehensive after-sales support</b> including annual maintenance, regular cleaning and sanitization, safety recertification, equipment checks, and wear & tear refurbishing, ensuring <b>long-term safety and peak performance</b> of all play installations.</p>', 'completion_date' => null, 'user_id' => 1],
         ];
     }
 }

@@ -56,6 +56,7 @@ class ProjectController extends Controller
             $project->location = $data['location'];
             $project->completion_date = date('Y-m-d', strtotime($data['completion_date']));
             $project->service_provided = $data['service_provided'];
+            $project->capacity = $data['capacity'];
             $project->description = $data['project_description'];
             if ($data['attachment_url']) {
                 deleteFromDisk($project->attachment_url);
