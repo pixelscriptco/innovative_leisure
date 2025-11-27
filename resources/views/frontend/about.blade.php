@@ -101,6 +101,107 @@
         <!-- .container end -->
     </section>
 
+    <section id="team1" class="team team-1 pt-110 pb-60">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading  mb-50 text--center">
+                  
+                    <h2 class="heading--title">Meet Our Team</h2>
+                    <p class="heading--desc mb-0">We love what we do and we do it with passion. We value the reformation of the message, and the smart incentives.</p>
+                </div>
+            </div>
+            <!-- .col-lg-6 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <!-- Member #1 -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/grid/1.jpg" alt="member">
+                        <div class="member-overlay">
+                            
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Cavin Mascarenhas</h5>
+                        <h6>Operations Lead</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Member #2 -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/grid/2.jpg" alt="member">
+                        <div class="member-overlay">
+                            
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Santhosh D Souza</h5>
+                        <h6>Project Lead</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/grid/2.jpg" alt="member">
+                        <div class="member-overlay">
+                            
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Sharon Christoper</h5>
+                        <h6>Managing Partner</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Member #3 -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/grid/3.jpg" alt="member">
+                        <div class="member-overlay">
+                          
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Christina Grace</h5>
+                        <h6>Architect</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+
 
     <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110  bg-gray">
         <div class="container">
