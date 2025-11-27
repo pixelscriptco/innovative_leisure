@@ -232,6 +232,14 @@
     padding: 4px 6px;
     text-align: center;
 }
+
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.pointer-icon {
+    cursor: pointer;
+}
 /*------------------------------------------------------------------------------*/
 
 .slider-wrapper {

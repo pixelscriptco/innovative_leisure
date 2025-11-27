@@ -26,7 +26,7 @@ function callBackDataTables() {
                     if (row.delete_access === "1") {
                         content += '<a href="javascript:void(0)" class="menu-delete mr-3 fa-tip"  data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash text-danger"></i></a>';
                     }
-                    if (row.current_role === "1" || row.current_role === "5") {
+                    if (row.current_role === "1") {
                         content += '<a href="javascript:void(0)" class="menu-privilege fa-tip"  data-toggle="tooltip" data-placement="top" title="Assign Privileges"><i class="fa fa-user-secret text-info"></i></a>';
                     }
                     content += '</div>';

@@ -9,10 +9,10 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class SendEmail extends Mailable
+class SendBooking extends Mailable
 {
     use Queueable, SerializesModels;
-    
+
     public $details;
 
     /**
@@ -29,7 +29,7 @@ class SendEmail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contact Inquiry',
+            subject: 'Booking Inquiry',
         );
     }
 
@@ -39,7 +39,7 @@ class SendEmail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.gmail',
+            view: 'emails.booking',
             with: ['details' => $this->details]
         );
     }

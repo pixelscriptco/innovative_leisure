@@ -40,6 +40,11 @@
                     </div>
                 @endforeach
             @endif
+            <div class="row mt-5 mb-5">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <a href="{{ url('contact-us') }}" class="btn btn--white btn--bordered btn--rounded">Contact Us to Discuss Your Project </a>
+                </div>
+            </div>
         </div>
     </section>
 @endsection

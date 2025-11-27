@@ -29,7 +29,7 @@ class RoleController extends Controller
             ->addColumn('read_access', '{{hasReadAccess(1)}}')
             ->addColumn('write_access', '{{hasWriteAccess(1)}}')
             ->addColumn('delete_access', '{{hasDeleteAccess(1)}}')
-            ->addColumn('role', '{{role()}}')
+            ->addColumn('current_role', '{{role()}}')
             ->toJson();
     }
 
@@ -65,7 +65,7 @@ class RoleController extends Controller
     {
         $privileges = Privilege::with(['privilegeRole' => function ($query) use ($id) {
             $query->where('role_id', $id);
-        }])->where('is_side_url', 1)->oldest('name')->get();
+        }])->oldest('name')->get();
         return view('admin.settings.role.privilege', compact('privileges'));
     }
 
@@ -85,19 +85,19 @@ class RoleController extends Controller
                     $assign->privilege_id = $value;
                 }
                 if (isset($request->$read)) {
-                    $assign->read_access = 1;
+                    $assign->has_read_access = 1;
                 } else {
-                    $assign->read_access = 0;
+                    $assign->has_read_access = 0;
                 }
                 if (isset($request->$write)) {
-                    $assign->write_access = 1;
+                    $assign->has_write_access = 1;
                 } else {
-                    $assign->write_access = 0;
+                    $assign->has_write_access = 0;
                 }
                 if (isset($request->$delete)) {
-                    $assign->delete_access = 1;
+                    $assign->has_delete_access = 1;
                 } else {
-                    $assign->delete_access = 0;
+                    $assign->has_delete_access = 0;
                 }
                 $assign->save();
 

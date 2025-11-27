@@ -26,7 +26,7 @@ class ProjectRequest extends FormRequest
             'location' => 'required',
             'completion_date' => 'nullable|date',
             'services_provided' => 'nullable',
-            'attachment_url' => 'nullable|mimes:jpg,jpeg,png|max:3072|dimensions:width:370px,height:275px',
+            'attachment_url' => 'nullable|image|mimes:jpg,jpeg,png|max:3072|dimensions:width=370,height=275',
         ];
     }
 }

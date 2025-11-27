@@ -52,22 +52,21 @@
         <!-- Right navbar links -->
         <ul class="navbar-nav ml-auto">
             <!-- Navbar Search -->
-            <li class="nav-item">
-                <div class="navbar-search-block">
-                    <form class="form-inline">
-                        <div class="input-group input-group-sm">
-                            <input class="form-control form-control-navbar" type="search" placeholder="Search"
-                                   aria-label="Search">
-                            <div class="input-group-append">
-                                <button class="btn btn-navbar" type="submit">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                                    <i class="fas fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-toggle="dropdown" href="#" style="padding:0;">
+                    @php
+                        $displayName = $authUser->name ?? ($authUser->email ?? 'U');
+                        $initial = strtoupper(substr(trim($displayName), 0, 1));
+                    @endphp
+                    <span class="d-inline-flex align-items-center justify-content-center"
+                          style="width:36px;height:36px;border-radius:50%;background:#ffffff;border:1px solid rgba(0,0,0,0.08);color:#0f172a;font-weight:700;font-size:14px;">
+                        {{ $initial }}
+                    </span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+                    <a href="javascript:void(0)" class="dropdown-item" onclick="logOut()">
+                        Logout
+                    </a>
                 </div>
             </li>
 
@@ -162,5 +161,20 @@
 <script src="{{ asset('cp_assets/dist/js/adminlte.js') }}"></script>
 <script src="{{ asset('cp_assets/dist/js/page-js/custom.js') }}"></script>
 @yield('page-scripts')
+<script>
+function logOut() {
+    $.ajax({
+        url: '/logout',
+        type: 'POST',
+        data: {'_token': '{{ csrf_token() }}'},
+        success: function (response) {
+            window.location.href = '/login';
+        },
+        error: function (jqXHR, status, err) {
+            console.log(status);
+        }
+    });
+}
+</script>
 </body>
 </html>

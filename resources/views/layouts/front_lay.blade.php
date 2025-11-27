@@ -49,6 +49,12 @@
                         <li class="service-li">
                             <a href="{{ url('service') }}" class="menu-item">Services</a>
                         </li>
+                        <li class="product-li">
+                            <a href="{{ url('products') }}" class="menu-item">Products</a>
+                        </li>
+                        <li class="Project-li">
+                            <a href="{{ url('projects') }}" class="menu-item">Projects</a>
+                        </li>
                         <li class="business-li">
                             <a href="{{ url('business-model') }}" class="menu-item">Business Models</a>
                         </li>
@@ -81,7 +87,6 @@
                                 </div>
                                 <div class="cart--control">
                                     <a class="btn btn--primary btn--rounded" href="{{ route('cart.view') }}">view cart</a>
-                                    <a class="btn btn--white btn--bordered btn--rounded" href="#">Checkout</a>
                                 </div>
                             </div>
                         </div>
@@ -123,6 +128,8 @@
                             <ul>
                                 <li><a class="color-white" href="{{ url('/') }}">Home</a></li>
                                 <li><a class="color-white" href="{{ url('service') }}">Services</a></li>
+                                <li><a class="color-white" href="{{ url('products') }}">Products</a></li>
+                                <li><a class="color-white" href="{{ url('projects') }}">Projects</a></li>
                                 <li><a class="color-white" href="{{ url('business-model') }}">Business Models</a></li>
                                 <li><a class="color-white" href="{{ url('contact-us') }}">Contact Us</a></li>
                             </ul>

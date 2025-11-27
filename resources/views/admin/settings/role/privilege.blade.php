@@ -1,5 +1,6 @@
-{!! Form::open(['id' => 'form']) !!}
-{!! Form::hidden('data-url', Request::url(), ['id' => 'data-url']) !!}
+<form method="POST" action="" id="form">
+@csrf
+<input type="hidden" name="data-url" id="data-url" value="{{ Request::url() }}">
 <div class="card shadow-none">
     <div class="card-header">
         <h4>Privileges</h4>
@@ -29,9 +30,9 @@
                         @php $read = 0; $write = 0; $delete = 0; @endphp
                         @if(count($privilege->privilegeRole) > 0)
                             @php
-                                $read = $privilege->privilegeRole[0]->read_access;
-                                $write = $privilege->privilegeRole[0]->write_access;
-                                $delete = $privilege->privilegeRole[0]->delete_access;
+                                $read = $privilege->privilegeRole[0]->has_read_access;
+                                $write = $privilege->privilegeRole[0]->has_write_access;
+                                $delete = $privilege->privilegeRole[0]->has_delete_access;
                             @endphp
                         @endif
                         <tr>
@@ -77,4 +78,4 @@
         </div>
     </div>
 </div>
-{!! Form::close() !!}
+</form>

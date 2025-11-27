@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Booking\BookingController;
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\Dashboard\DashboardController;
 use App\Http\Controllers\Frontend\FrontendController;
 use App\Http\Controllers\Settings\Role\RoleController;
@@ -34,6 +36,7 @@ Route::get('contact-us', function () {
 });
 
 Route::post('post-contact', [ContactController::class, 'postContact']);
+Route::post('post-inquiry', [CartController::class, 'postInquiry']);
 
 Auth::routes();
 
@@ -81,4 +84,12 @@ Route::prefix('admin')->group(function() {
         Route::post('{id}/edit', [ProductController::class, 'save']);
         Route::delete('{id}/delete', [ProductController::class, 'delete']);
     });
+    Route::prefix('booking')->group(function() {
+        Route::get('list', [BookingController::class, 'list'])->name('booking.list');
+        Route::post('list', [BookingController::class, 'listDT']);
+        Route::post('{id}/change-status', [BookingController::class, 'saveStatus']);
+        Route::delete('{id}/delete', [BookingController::class, 'delete']);
+    });
 });
+
+Route::post('logout', [DashboardController::class, 'logout']);
