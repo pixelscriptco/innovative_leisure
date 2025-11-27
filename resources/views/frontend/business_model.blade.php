@@ -21,7 +21,7 @@
 		</div><!-- .row end -->
 	</div><!-- .container end -->
 </section>
-<section id="featured4" class="featured featured-4 serviceAbout featured-left pt-110 pb-100">
+<section id="featured4" class="featured featured-4 serviceAbout featured-left pt-110 ">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -37,7 +37,7 @@
                                 investment ranges, operational highlights, and key features</b>, helping you make informed decisions. 
 
                             </p>
-                            <a class="btn btn-sm btn--rounded" href="https://drive.google.com/file/d/1_G4fsG8aol2n43tpH_lehxW17Xrkq5xC/view?pli=1">Download Our Company Profile</a>
+                            <a class="btn btn-sm btn--rounded bmBtn" href="https://drive.google.com/file/d/1_G4fsG8aol2n43tpH_lehxW17Xrkq5xC/view?pli=1">Download Our Company Profile</a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
@@ -285,7 +285,7 @@
       </div>
     </div>
  <!-- Model  9-->
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center mb-5 lastRow">
       <div class="col-md-5">
         <img src="assets/images/business-model/scooters.svg" alt="Model 3" class="img-fluid rounded-4 shadow-sm">
       </div>

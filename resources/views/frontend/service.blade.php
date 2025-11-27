@@ -28,7 +28,7 @@
     <!-- #page-title end -->
 
 
-<section id="featured4" class="featured featured-4 serviceAbout featured-left pt-110 pb-100">
+<section id="featured4" class="featured featured-4 serviceAbout featured-left pt-110 ">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -44,7 +44,7 @@
          we provide <b>turnkey solutions</b> tailored to <b>family entertainment centers, adventure play zones,
           trampoline parks, interactive experiences, social leisure venues, and restaurants.</b>
                             </p>
-                            <a class="btn btn-sm btn--rounded" href="https://drive.google.com/file/d/1_G4fsG8aol2n43tpH_lehxW17Xrkq5xC/view?pli=1">Download Our Company Profile</a>
+                            <a class="btn btn-sm btn--rounded service-btn" href="https://drive.google.com/file/d/1_G4fsG8aol2n43tpH_lehxW17Xrkq5xC/view?pli=1">Download Our Company Profile</a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
@@ -196,7 +196,7 @@
     </section>
     <!-- #featured1 end -->
 
-       <section id="cta1" class="cta cta-1 bg-theme">
+       <section id="cta1" class="cta serviceCta cta-1 bg-theme">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -214,7 +214,7 @@
         </div>
         <!-- .container -->
     </section>
-    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100">
+    <section id="featured4" class="featured corValues featured-4 featured-left pt-110 ">
         <div class="container">
             <div class="heading">
                 <h2 class="heading--title mb-5">Our Core Values</h2>
@@ -257,7 +257,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="feature-card">
+                    <div class="feature-card fcLast">
                         <div class="feature-card-icon">
                            <i> <img src="assets/images/home/partnership.png" alt="partnership"></i>
                         </div>
