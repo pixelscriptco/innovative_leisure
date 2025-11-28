@@ -9,7 +9,7 @@ class FrontendController extends Controller
 {
     protected function index()
     {
-        $projects = Project::latest('completion_date')->limit(6)->get();
+        $projects = Project::latest()->limit(3)->get();
         return view('frontend.index', compact('projects'));
     }
 
