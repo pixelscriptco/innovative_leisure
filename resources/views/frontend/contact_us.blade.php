@@ -127,7 +127,7 @@
                 <!-- .col-lg-4 end -->
                 <div class="col-sm-12 col-md-3 col-lg-3">
                     <div class="contact--info">
-                        <h3>WhatsApp</h3>
+                        <h3>Mobile</h3>
                         <p> <a href="tel:+971525662703"> +971525662703</a></p>
                     </div>
                 </div>

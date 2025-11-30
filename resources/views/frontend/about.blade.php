@@ -108,7 +108,7 @@
                 <div class="heading  mb-50 text--center">
                   
                     <h2 class="heading--title">Meet Our Team</h2>
-                    <p class="heading--desc mb-0">We love what we do and we do it with passion. We value the reformation of the message, and the smart incentives.</p>
+                    <p class="heading--desc mb-0">Our team blends creativity, expertise, and hands-on industry experience to deliver seamless leisure solutions with precision and passion.</p>
                 </div>
             </div>
             <!-- .col-lg-6 end -->
@@ -119,7 +119,7 @@
             <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="member">
                     <div class="member-img">
-                        <img src="assets/images/team/grid/1.jpg" alt="member">
+                        <img src="assets/images/team/grid/1.svg" alt="Cavin Mascarenhas - Operations Lead">
                         <div class="member-overlay">
                             
                         </div>
@@ -140,7 +140,7 @@
             <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="member">
                     <div class="member-img">
-                        <img src="assets/images/team/grid/2.jpg" alt="member">
+                        <img src="assets/images/team/grid/2.svg" alt="Santhosh D Souza - Project Lead">
                         <div class="member-overlay">
                             
                         </div>
@@ -158,7 +158,7 @@
               <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="member">
                     <div class="member-img">
-                        <img src="assets/images/team/grid/2.jpg" alt="member">
+                        <img src="assets/images/team/grid/3.svg" alt="Sharon Christopher - Managing Partner">
                         <div class="member-overlay">
                             
                         </div>
@@ -179,7 +179,7 @@
             <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="member">
                     <div class="member-img">
-                        <img src="assets/images/team/grid/3.jpg" alt="member">
+                        <img src="assets/images/team/grid/4.svg" alt="Christina Grace - Lead Architect">
                         <div class="member-overlay">
                           
                         </div>
