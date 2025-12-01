@@ -127,6 +127,7 @@
                         <div class="widget-content">
                             <ul>
                                 <li><a class="color-white" href="{{ url('/') }}">Home</a></li>
+                                <li><a class="color-white" href="{{ url('about-us') }}">About Us</a></li>
                                 <li><a class="color-white" href="{{ url('service') }}">Services</a></li>
 {{--                                <li><a class="color-white" href="{{ url('products') }}">Products</a></li>--}}
 {{--                                <li><a class="color-white" href="{{ url('projects') }}">Projects</a></li>--}}
