@@ -1,6 +1,6 @@
 @extends('layouts.front_lay')
 @section('content')
-    <section id="slider" class="slider slide-overlay-dark" style="position:relative;">
+    <section id="slider" class="slider slide-overlay-dark parallax-bg">
         <div class="slider-wrapper">
             <video autoplay muted loop class="bg-video">
                 <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
@@ -25,7 +25,7 @@
                 <div class="slide">
                     <div><span class="font-30">Invest. Innovate.</span><span class="font-40"> Inspire.</span></div>
                     <p class="text-white">Inspiring growth through strategic partnerships and scalable<br>
-                        business models in leisure and entertainment.</p>
+                    business models in leisure and entertainment.</p>
                     <a class="btn btn--white btn--bordered btn--rounded" href="{{ url('business-model') }}">
                         Business Models
                     </a>
@@ -37,7 +37,7 @@
 
     </section>
 
-    <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 ">
+    <section id="featured4" class="featured featured-4 serviceSections featured-left pt-110 pos-relative bg-white z-index-2">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -83,7 +83,7 @@
         </div>
     </section>
 
-    <section id="featured1" class="featured featured-1 homeService text-center pt-110">
+    <section id="featured1" class="featured featured-1 homeService text-center pt-110 pos-relative">
         <div class="container">
             <div class="row ">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -224,13 +224,7 @@
         </div>
         <!-- .container end -->
     </section>
-
-
-
-
-
-
-    <section id="infoCards" class="info-cards WhatSetsApart  ">
+    <section id="infoCards" class="info-cards WhatSetsApart pos-relative bg-white">
         <div class="container">
             <div class="heading">
                 <h2 class="heading--title mb-5 text-center">What Sets Us Apart</h2>
@@ -281,7 +275,7 @@
         </div>
         <!-- .container end -->
     </section>
-    <section id="featured3" class="featured featured-2 whyPartner featured-3 featured-left bg-dark3 pt-0 pb-0">
+    <section id="featured3" class="featured featured-2 whyPartner featured-3 featured-left bg-dark3 pt-0 pb-0 pos-relative">
         <div class="container-fluid pr-0 pl-0">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-content">
@@ -353,8 +347,7 @@
         </div>
         <!-- .container end -->
     </section>
-    @if(count($projects) > 0)
-        <section id="case" class="case case-standard case-3col pt-110 bg-gray">
+    <section id="case" class="case case-standard case-3col pt-110 bg-gray pos-relative">
         <div class="container">
             <div class="row flipInX" data-wow-delay="100ms">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -372,11 +365,60 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="case-carousel-grid">
                         <div class="row">
-                           @foreach($projects as $pRow)
+                            <!-- Case #1 -->
                             <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">
                                 <div class="case-item-container">
                                     <div class="case--img">
-                                        <img src="{{$pRow->attachment_url}}" alt="case Item">
+                                        <img src="{{ asset('assets/images/home/project-1.png') }}" alt="case Item">
+                                        <div class="case--hover">
+                                            <div class="case--action">
+                                                <a href="#" title="case Item"></a>
+                                            </div>
+                                            <!-- .case-action end -->
+                                        </div>
+                                        <!-- .case-hover end -->
+                                    </div>
+                                    <!-- .case-img end -->
+                                    <div class="case--content">
+                                        <div class="case--title">
+                                            <h4><a href="javascript:void(0)">Soft Play & Interactives - Supply &
+                                                    Installation</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- . case-item end -->
+                            <!-- Case #2 -->
+                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-Investment">
+                                <div class="case-item-container">
+                                    <div class="case--img">
+                                        <img src="{{ asset('assets/images/home/project-2.png') }}" alt="case Item">
+                                        <div class="case--hover">
+                                            <div class="case--action">
+                                                <a href="#" title="case Item"></a>
+                                            </div>
+                                            <!-- .case-action end -->
+                                        </div>
+                                        <!-- .case-hover end -->
+                                    </div>
+                                    <!-- .case-img end -->
+                                    <div class="case--content">
+                                        <!-- <div class="case--cat">
+                                            <a href="#">Investment</a><a href="#">Tips</a>
+                                        </div> -->
+                                        <div class="case--title">
+                                            <h4><a href="javascript:void(0)">Family Entertainment Center Concept
+                                                    Development</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- . case-item end -->
+                            <!-- Case #3 -->
+                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips filter-Consulting">
+                                <div class="case-item-container">
+                                    <div class="case--img">
+                                        <img src="{{ asset('assets/images/home/project-3.png') }}" alt="case Item">
                                         <div class="case--hover">
                                             <div class="case--action">
                                                 <a href="#" title="case Item"></a>
@@ -385,16 +427,15 @@
                                     </div>
                                     <div class="case--content">
                                         <div class="case--title">
-                                            <h4><a href="javascript:void(0)">{{$pRow->title}}</a></h4>
+                                            <h4><a href="javascript:void(0)">Outdoor Net Trail Rectification &
+                                                    Maintenance</a></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                           @endforeach
                         </div>
-                        <!-- .row end -->
                         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                            <a href="{{ route('project.frontend') }}" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All
+                            <a href="" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All
                                 Projects </a>
                         </div>
                     </div>
@@ -405,7 +446,59 @@
         <!-- .container end -->
 
     </section>
-    @endif
+{{--    @if(count($projects) > 0)--}}
+{{--        <section id="case" class="case case-standard case-3col pt-110 bg-gray pos-relative">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row flipInX" data-wow-delay="100ms">--}}
+{{--                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">--}}
+{{--                    <div class="heading heading-2 mb-30 text--center">--}}
+
+{{--                        <h2 class="heading--title">Our Projects</h2>--}}
+{{--                        <p class="heading--desc mb-0">Delivering Innovative leisure solutions, from concept to ongoing--}}
+{{--                            support.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <!-- .col-lg-6 end -->--}}
+{{--            </div>--}}
+{{--            <!-- .row end -->--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-sm-12 col-md-12 col-lg-12">--}}
+{{--                    <div class="case-carousel-grid">--}}
+{{--                        <div class="row">--}}
+{{--                           @foreach($projects as $pRow)--}}
+{{--                            <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">--}}
+{{--                                <div class="case-item-container">--}}
+{{--                                    <div class="case--img">--}}
+{{--                                        <img src="{{$pRow->attachment_url}}" alt="case Item">--}}
+{{--                                        <div class="case--hover">--}}
+{{--                                            <div class="case--action">--}}
+{{--                                                <a href="#" title="case Item"></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="case--content">--}}
+{{--                                        <div class="case--title">--}}
+{{--                                            <h4><a href="javascript:void(0)">{{$pRow->title}}</a></h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                           @endforeach--}}
+{{--                        </div>--}}
+{{--                        <!-- .row end -->--}}
+{{--                        <div class="col-sm-12 col-md-12 col-lg-12 text-center">--}}
+{{--                            <a href="{{ route('project.frontend') }}" class="btn btn--primary btn--bordered btn-padding btn--rounded">View All--}}
+{{--                                Projects </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <!-- .row end -->--}}
+{{--        </div>--}}
+{{--        <!-- .container end -->--}}
+
+{{--    </section>--}}
+{{--    @endif--}}
     <section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
         <div class="bg-section">
             <img src="assets/images/background/2.jpg" alt="background">
@@ -494,7 +587,7 @@
         </div>
         <div class="section-divider"></div>
     </section>
-    <section id="cta1" class="cta businessCta cta-1 bg-theme">
+    <section id="cta1" class="cta businessCta cta-1 bg-theme pos-relative">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -509,7 +602,7 @@
         </div>
         <!-- .container -->
     </section>
-    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 mobpb-60 bg-gray">
+    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 mobpb-60 bg-gray pos-relative">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -546,7 +639,7 @@
         </div>
     </section>
 
-    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 mobpb-60">
+    <section id="featured4" class="featured featured-4 featured-left pt-110 pb-100 mobpb-60 bg-white pos-relative">
         <div class="container">
             <div class="heading">
                 <h2 class="heading--title mb-5">Our Core Values</h2>

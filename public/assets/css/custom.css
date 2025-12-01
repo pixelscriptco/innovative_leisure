@@ -24,7 +24,7 @@
 }
 
 .homeService {
-    background-color: #e7e7e763
+    background-color: #e7e7e7
 }
 
 .whyPartner .feature-card .feature-card-icon i {
@@ -344,6 +344,9 @@
     cursor: pointer;
 }
 
+.z-index-2 {
+    z-index: 2 !important;
+}
 /*------------------------------------------------------------------------------*/
 
 .slider-wrapper {
@@ -436,4 +439,18 @@
 
 .slide .btn--bordered.btn--white {
     padding: 0 20px
+}
+
+#slider.parallax-bg {
+    min-height: 100vh;
+}
+
+.parallax-bg .bg-video {
+    position: fixed !important;
+    z-index: 0 !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }

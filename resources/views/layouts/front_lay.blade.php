@@ -49,12 +49,12 @@
                         <li class="service-li">
                             <a href="{{ url('service') }}" class="menu-item">Services</a>
                         </li>
-                        <li class="product-li">
-                            <a href="{{ url('products') }}" class="menu-item">Products</a>
-                        </li>
-                        <li class="Project-li">
-                            <a href="{{ url('projects') }}" class="menu-item">Projects</a>
-                        </li>
+{{--                        <li class="product-li">--}}
+{{--                            <a href="{{ url('products') }}" class="menu-item">Products</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="Project-li">--}}
+{{--                            <a href="{{ url('projects') }}" class="menu-item">Projects</a>--}}
+{{--                        </li>--}}
                         <li class="business-li">
                             <a href="{{ url('business-model') }}" class="menu-item">Business Models</a>
                         </li>
@@ -62,41 +62,41 @@
                             <a href="{{ url('contact-us') }}" class="menu-item">Contact Us</a>
                         </li>
                     </ul>
-                    <div class="module-container">
-                        <div class="module module-cart pull-left">
-                            <div class="module-icon cart-icon">
-                                <i class="lnr lnr-cart"></i>
-                                <span class="title">shop cart</span>
-                                <label class="module-label cart-product-count">0</label>
-                            </div>
-                            <div class="module-content module-box cart-box">
-                                <div class="cart-overview">
-                                    <ul class="list-unstyled">
-                                        <div class="reverse-spinner"></div>
-                                    </ul>
-                                </div>
-                                <div class="cart-total">
-                                    <div class="total-desc">
-                                        Subtotal:
-                                    </div>
-                                    <div class="total-price cart-total-price color-gold">
-                                        AED 0.00
-                                    </div>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <div class="cart--control">
-                                    <a class="btn btn--primary btn--rounded" href="{{ route('cart.view') }}">view cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="module-container">--}}
+{{--                        <div class="module module-cart pull-left">--}}
+{{--                            <div class="module-icon cart-icon">--}}
+{{--                                <i class="lnr lnr-cart"></i>--}}
+{{--                                <span class="title">shop cart</span>--}}
+{{--                                <label class="module-label cart-product-count">0</label>--}}
+{{--                            </div>--}}
+{{--                            <div class="module-content module-box cart-box">--}}
+{{--                                <div class="cart-overview">--}}
+{{--                                    <ul class="list-unstyled">--}}
+{{--                                        <div class="reverse-spinner"></div>--}}
+{{--                                    </ul>--}}
+{{--                                </div>--}}
+{{--                                <div class="cart-total">--}}
+{{--                                    <div class="total-desc">--}}
+{{--                                        Subtotal:--}}
+{{--                                    </div>--}}
+{{--                                    <div class="total-price cart-total-price color-gold">--}}
+{{--                                        AED 0.00--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="clearfix">--}}
+{{--                                </div>--}}
+{{--                                <div class="cart--control">--}}
+{{--                                    <a class="btn btn--primary btn--rounded" href="{{ route('cart.view') }}">view cart</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </nav>
     </header>
     @yield('content')
-    <footer id="footer" class="footer footer-1">
+    <footer id="footer" class="footer footer-1 pos-relative">
         <!-- Widget Section
         ============================================= -->
         <div class="footer-widget">
@@ -128,8 +128,8 @@
                             <ul>
                                 <li><a class="color-white" href="{{ url('/') }}">Home</a></li>
                                 <li><a class="color-white" href="{{ url('service') }}">Services</a></li>
-                                <li><a class="color-white" href="{{ url('products') }}">Products</a></li>
-                                <li><a class="color-white" href="{{ url('projects') }}">Projects</a></li>
+{{--                                <li><a class="color-white" href="{{ url('products') }}">Products</a></li>--}}
+{{--                                <li><a class="color-white" href="{{ url('projects') }}">Projects</a></li>--}}
                                 <li><a class="color-white" href="{{ url('business-model') }}">Business Models</a></li>
                                 <li><a class="color-white" href="{{ url('contact-us') }}">Contact Us</a></li>
                             </ul>
