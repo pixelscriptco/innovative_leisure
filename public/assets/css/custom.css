@@ -430,6 +430,11 @@
     color: #f0f0f0;
 }
 
+.page-title {
+    padding: 0;
+    max-height: 800px !important;
+    height: 800px !important;
+}
 /*------------------------------------------------------------------------------*/
 
 
