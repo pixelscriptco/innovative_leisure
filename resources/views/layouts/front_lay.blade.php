@@ -105,7 +105,7 @@
                     <div class="col-sm-12 col-md-3 col-lg-3 footer--widget widget-about">
                         <div class="widget-content">
                             <img class="footer-logo" src="{{ asset('assets/images/logo/logo-plain.png') }}" width="200" alt="logo">
-                            <p class="color-white">Innovative Leisure LLC: Your turnkey business realization partner for
+                            <p class="color-white">Innovative Leisure  : Your turnkey business realization partner for
                                 profitable leisure ventures across UAE and GCC</p>
                             <div class="social-icons">
                                 <a href="https://www.linkedin.com/company/innovativeleisure/"

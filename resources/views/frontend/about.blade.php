@@ -116,6 +116,45 @@
         <!-- .row end -->
         <div class="row">
             <!-- Member #1 -->
+                           <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/grid/3.svg" alt="Sharon Christopher - Managing Partner">
+                        <div class="member-overlay">
+                            
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Sharon Christopher</h5>
+                        <h6>Managing Partner</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+
+              <!-- Member #2 -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/grid/2.svg" alt="Santhosh D Souza - Project Lead">
+                        <div class="member-overlay">
+                            
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Santhosh D Souza</h5>
+                        <h6>Finance Lead</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-4 end --> 
             <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="member">
                     <div class="member-img">
@@ -136,44 +175,8 @@
             </div>
             <!-- .col-md-4 end -->
 
-            <!-- Member #2 -->
-            <div class="col-sm-12 col-md-3 col-lg-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="assets/images/team/grid/2.svg" alt="Santhosh D Souza - Project Lead">
-                        <div class="member-overlay">
-                            
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>Santhosh D Souza</h5>
-                        <h6>Project Lead</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-              <div class="col-sm-12 col-md-3 col-lg-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="assets/images/team/grid/3.svg" alt="Sharon Christopher - Managing Partner">
-                        <div class="member-overlay">
-                            
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>Sharon Christoper</h5>
-                        <h6>Managing Partner</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-4 end -->
+          
+
 
             <!-- Member #3 -->
             <div class="col-sm-12 col-md-3 col-lg-3">
@@ -188,7 +191,7 @@
                     <!-- .member-img end -->
                     <div class="member-info">
                         <h5>Christina Grace</h5>
-                        <h6>Architect</h6>
+                        <h6>Lead Architect</h6>
                     </div>
                     <!-- .member-info end -->
                 </div>
