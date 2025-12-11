@@ -2,7 +2,7 @@
 @section('content')
     <section id="page-title" class="page-title page-banner bg-overlay  bg-overlay-dark bg-parallax">
         <div class="bg-section">
-            <img src="assets/images/about/about-banner.svg" alt="Background"  style="width:100%;height:100%;object-fit:cover;object-position:center;"/>
+            <img src="{{ asset('assets/images/background/bg_banner.jpg') }}" alt="Background"  style="width:100%;height:100%;object-fit:cover;object-position:center;"/>
         </div>
         <div class="container">
             <div class="row">
@@ -106,7 +106,7 @@
         <div class="row clearfix">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading  mb-50 text--center">
-                  
+
                     <h2 class="heading--title">Meet Our Team</h2>
                     <p class="heading--desc mb-0">Our team blends creativity, expertise, and hands-on industry experience to deliver seamless leisure solutions with precision and passion.</p>
                 </div>
@@ -121,7 +121,7 @@
                     <div class="member-img">
                         <img src="assets/images/team/grid/3.svg" alt="Sharon Christopher - Managing Partner">
                         <div class="member-overlay">
-                            
+
                         </div>
                         <!-- .memebr-ovelay end -->
                     </div>
@@ -141,7 +141,7 @@
                     <div class="member-img">
                         <img src="assets/images/team/grid/2.svg" alt="Santhosh D Souza - Project Lead">
                         <div class="member-overlay">
-                            
+
                         </div>
                         <!-- .memebr-ovelay end -->
                     </div>
@@ -154,13 +154,13 @@
                 </div>
                 <!-- .member end -->
             </div>
-            <!-- .col-md-4 end --> 
+            <!-- .col-md-4 end -->
             <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="member">
                     <div class="member-img">
                         <img src="assets/images/team/grid/1.svg" alt="Cavin Mascarenhas - Operations Lead">
                         <div class="member-overlay">
-                            
+
                         </div>
                         <!-- .memebr-ovelay end -->
                     </div>
@@ -175,7 +175,7 @@
             </div>
             <!-- .col-md-4 end -->
 
-          
+
 
 
             <!-- Member #3 -->
@@ -184,7 +184,7 @@
                     <div class="member-img">
                         <img src="assets/images/team/grid/4.svg" alt="Christina Grace - Lead Architect">
                         <div class="member-overlay">
-                          
+
                         </div>
                         <!-- .memebr-ovelay end -->
                     </div>
