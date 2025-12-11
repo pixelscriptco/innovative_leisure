@@ -1,25 +1,23 @@
 @extends('layouts.front_lay')
 @section('content')
 <section id="page-title" class="page-title bg-overlay  bg-overlay-dark bg-parallax">
-	<div class="bg-section">
-		<img src="assets/images/business-model/business-model-banner.png" alt="Business Model Banner"/>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-				<div class="title text-center">
-                    <div class="title--heading">
-                        <h1>Business Models</h1>
-                    </div>
-					<div class="clearfix"></div>
-					<ol class="breadcrumb d-flex justify-content-center">
-						<li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">Business Models</li>
-					</ol>
-				</div><!-- .title end -->
-			</div><!-- .col-lg-8 end -->
-		</div><!-- .row end -->
-	</div><!-- .container end -->
+    <div class="bg-section">
+        <img src="{{ asset('assets/images/background/bg_banner.jpg') }}" alt="Background"  style="width:100%;height:100%;object-fit:cover;object-position:center;"/>
+    </div>
+    <div class="container h-100">
+        <div class="d-flex justify-content-center h-100 align-items-center">
+            <div class="title text-center">
+                <div class="title--heading">
+                    <h1>Business Models</h1>
+                </div>
+                <div class="clearfix"></div>
+                <ol class="breadcrumb d-flex justify-content-center">
+                    <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Business Models</li>
+                </ol>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="featured4" class="featured featured-4 serviceAbout featured-left pt-110 ">
         <div class="container">
@@ -32,9 +30,9 @@
                                 <h2 class="heading--title mb-4">Turnkey Business Models for Profitable Ventures</h2>
                             </div>
                             <p class="feature-card-desc">
-                                Explore our <b>turnkey business models with guaranteed ROI partnership</b> designed to create <b>profitable, 
+                                Explore our <b>turnkey business models with guaranteed ROI partnership</b> designed to create <b>profitable,
                                 engaging, and scalable ventures</b> across entertainment, hospitality, and leisure sectors. Each model includes <b>high-level ROI projections,
-                                investment ranges, operational highlights, and key features</b>, helping you make informed decisions. 
+                                investment ranges, operational highlights, and key features</b>, helping you make informed decisions.
 
                             </p>
                             <a class="btn btn-sm btn--rounded bmBtn" href="https://drive.google.com/file/d/1_G4fsG8aol2n43tpH_lehxW17Xrkq5xC/view?pli=1">Download Our Company Profile</a>
@@ -150,7 +148,7 @@
       </div>
       <div class="col-md-7 business-model-details">
               <h4 class="fw-bold">Waterplay Villa</h4>
-          <p> <b>Brief Description</b>: Custom outdoor waterplay attractions including splash pads, slides, and interactive pools — 
+          <p> <b>Brief Description</b>: Custom outdoor waterplay attractions including splash pads, slides, and interactive pools —
           perfect for villas, resorts, or private family setups.  </p>
 
         <p>	<b>Price Starting From</b>: AED 1.8M </p>
@@ -190,7 +188,7 @@
           <li>		Modern kitchen and service layout</li>
           <li>		Themed interiors & branding</li>
           <li>		Food safety certifications</li>
-      
+
 
         </ul>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
@@ -205,7 +203,7 @@
       </div>
       <div class="col-md-7 business-model-details">
         <h4 class="fw-bold">Fine Dining/Premium Restaurant</h4>
-          <p> <b>Brief Description</b>: Luxury culinary experiences with themed interiors, curated menus, and personalized service, 
+          <p> <b>Brief Description</b>: Luxury culinary experiences with themed interiors, curated menus, and personalized service,
           designed to deliver unforgettable culinary experiences</p>
 
         <p>	<b>Price Starting From</b>: AED 1.2M </p>
@@ -217,7 +215,7 @@
           <li>		Immersive thematic interiors</li>
           <li>		Efficient kitchen and workflow design</li>
           <li>	Food safety certifications</li>
-      
+
 
         </ul>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
@@ -247,7 +245,7 @@
           <li>	Interactive game zones and social hubs</li>
           <li>Culinary & Beverage Excellence</li>
           <li>Food safety certifications & licenses</li>
-      
+
 
         </ul>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
@@ -274,8 +272,8 @@
           <li>		Printing & Personalization </li>
           <li>		Gifting & Merchandise </li>
           <li>		Corporate gifting modules</li>
-   
-      
+
+
 
         </ul>
 
@@ -303,7 +301,7 @@
           <li>	Eco-mobility </li>
           <li>	App enabled convenience</li>
           <li>	Strategic Location</li>
-      
+
 
         </ul>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoJRigtSx5Y-ZJh44MrvThu59iAmBe4AOpTiX9F3zOh_tDGQ/viewform" class="btn btn--secondary  btn--bordered btn--roundedrounded-3 mt-2 px-4">
@@ -311,9 +309,9 @@
         </a>
       </div>
     </div>
-    
+
     <!-- Model  10-->
-    
+
      <div class="row align-items-center mb-5 flex-md-row-reverse">
       <div class="col-md-5">
         <img src="assets/images/business-model/saloon.svg" alt="Model 2" class="img-fluid rounded-4 shadow-sm">
@@ -332,7 +330,7 @@
           <li>		Luxury Ambiance & Design  </li>
           <li>		High-end Technology & Equipment</li>
           <li>		Premium salon branding and theming</li>
-      
+
 
         </ul>
 
@@ -343,7 +341,7 @@
     </div>
 
 
-   
+
     <!-- Alternate using 'flex-md-row-reverse' every other row -->
   </div>
 </section>

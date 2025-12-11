@@ -1,22 +1,20 @@
 @extends('layouts.front_lay')
 @section('content')
-
     <section id="page-title" class="page-title bg-overlay bg-overlay-dark bg-parallax">
         <div class="bg-section">
-            <img src="{{ asset('assets/images/business-model/business-model-banner.png') }}" alt="Business Model Banner"/>
+            <img src="{{ asset('assets/images/background/bg_banner.jpg') }}" alt="Background"  style="width:100%;height:100%;object-fit:cover;object-position:center;"/>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-                    <div class="title text-center">
-                        <div class="title--heading">
-                            <h1>Cart</h1>
-                        </div>
-                        <ol class="breadcrumb d-flex justify-content-center">
-                            <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-                            <li class="breadcrumb-item active">Cart</li>
-                        </ol>
+        <div class="container h-100">
+            <div class="d-flex justify-content-center h-100 align-items-center">
+                <div class="title text-center">
+                    <div class="title--heading">
+                        <h1>Cart</h1>
                     </div>
+                    <div class="clearfix"></div>
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                    </ol>
                 </div>
             </div>
         </div>
