@@ -42,7 +42,7 @@
 }
 
 .footer--widget ul {
-    padding-left: 0px;
+    padding-left: 0;
     list-style: none;
 }
 
@@ -134,11 +134,11 @@
 
 .slide-action .btn {
     margin-top: 20px;
-    padding: 0px 30px;
+    padding: 0 30px;
 }
 
 .btn-padding {
-    padding: 0px 30px;
+    padding: 0 30px;
 }
 
 .about-expetise li {
