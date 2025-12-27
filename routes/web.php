@@ -64,6 +64,7 @@ Route::prefix('admin')->group(function() {
             Route::get('{id}/edit', [UserController::class, 'modal']);
             Route::post('{id}/edit', [UserController::class, 'save']);
             Route::delete('{id}/delete', [UserController::class, 'delete']);
+            Route::post('{id}/send-login-credentials', [UserController::class, 'sendLoginCredentials']);
         });
     });
     Route::prefix('project')->group(function() {

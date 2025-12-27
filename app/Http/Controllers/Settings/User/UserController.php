@@ -4,9 +4,13 @@ namespace App\Http\Controllers\Settings\User;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\Settings\UserRequest;
+use App\Mail\SendEmail;
+use App\Mail\SendLogin;
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Str;
 use Yajra\DataTables\Facades\DataTables;
 
 class UserController extends Controller
@@ -65,5 +69,17 @@ class UserController extends Controller
     {
         User::whereId($id)->delete();
         return deleteResponse();
+    }
+
+    protected function sendLoginCredentials($id) {
+        $user = User::findOrFail($id);
+        $password = Str::random(10);
+        $user->password = Hash::make($password);
+        $user->save();
+
+        Mail::to($user->email)->send(new SendLogin($user, $password));
+
+        // 4. Return a response if using AJAX
+        return response()->json(['success' => true, 'message' => 'Mail sent successfully.']);
     }
 }

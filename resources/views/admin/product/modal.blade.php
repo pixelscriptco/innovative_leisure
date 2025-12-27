@@ -20,6 +20,7 @@
                            id="attachment_url">
                     <label class="custom-file-label" for="attachment_url">Choose file</label>
                 </div>
+                <small class="text-muted">Image Dimension - 370 x 275</small>
             </div>
         </div>
         <div class="col-md-6">

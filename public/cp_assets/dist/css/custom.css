@@ -2,3 +2,16 @@
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+
+.dt-buttons {
+    align-self: start !important;
+}
+
+.dt-buttons > .btn-outline-dark {
+    border-color: #dee2e6 !important;
+}
+
+.dt-buttons > .btn-secondary {
+    padding: 0.14rem 0.5rem;
+    background-color: unset;
+}

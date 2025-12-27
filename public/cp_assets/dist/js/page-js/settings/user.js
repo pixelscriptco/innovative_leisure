@@ -25,11 +25,11 @@ function callBackDataTables() {
                     if (row.write_access === "1") {
                         content += '<a href="javascript:void(0)" class="menu-edit fa-tip mx-3"  data-toggle="tooltip" data-placement="top" title="Edit"><i class="fas fa-pen text-success"></i></a>';
                     }
-                    if (row.delete_access === "1") {
+                    if (row.delete_access === "1" && row.role_id !== 1) {
                         content += '<a href="javascript:void(0)" class="menu-delete mr-3 fa-tip"  data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash text-danger"></i></a>';
                     }
-                    if (row.current_role === "1" || row.current_role === "5") {
-                        content += '<a href="javascript:void(0)" class="menu-privilege fa-tip"  data-toggle="tooltip" data-placement="top" title="Assign Privileges"><i class="fa fa-user-secret text-info"></i></a>';
+                    if (row.role_id !== 1) {
+                        content += '<a href="javascript:void(0)" class="menu-mail fa-tip"  data-toggle="tooltip" data-placement="top" title="Send Login Credentials"><i class="fa fa-envelope text-info"></i></a>';
                     }
                     content += '</div>';
 
@@ -49,6 +49,12 @@ function callBackDataTables() {
                 let id = $(this).closest('tr').data('id');
 
                 Ajax.delete(`/admin/settings/user/${id}/delete`);
+            });
+
+            $('.menu-mail').on('click', function () {
+                let id = $(this).closest('tr').data('id');
+
+                Ajax.send(`admin/settings/user/${id}/send-login-credentials`);
             });
         },
         buttons: DT.exportButtons('Role')

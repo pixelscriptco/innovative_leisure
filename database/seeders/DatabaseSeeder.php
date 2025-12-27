@@ -16,6 +16,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        DB::table('roles')->truncate();
+        DB::table('users')->truncate();
+        DB::table('privileges')->truncate();
+        DB::table('privilege_roles')->truncate();
+        DB::table('projects')->truncate();
         DB::table('roles')->insert($this->getRoles());
         DB::table('users')->insert($this->getUsers());
         DB::table('privileges')->insert($this->getPrivilege());
