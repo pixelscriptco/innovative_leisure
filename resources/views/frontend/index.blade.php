@@ -2,7 +2,7 @@
 @section('content')
     <section id="slider" class="slider slide-overlay-dark parallax-bg">
         <div class="slider-wrapper">
-            <video autoplay muted loop class="bg-video">
+            <video autoplay muted loop class="bg-video" poster="{{ asset('assets/images/home/slider/poster.jpg') }}" preload="metadata">
                 <source src="{{ asset('assets/images/home/slider/slider.mp4') }}" type="video/mp4">
             </video>
             <div class="overlay"></div>
@@ -45,7 +45,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row whatWedoSection">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/home/what-we-do.png" alt="banner img">
+                                    <img src="{{ asset('assets/images/home/what-we-do.png') }}" alt="What We Do" loading="lazy">
                                 </div>
                             </div>
 
@@ -98,8 +98,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/advisory_ business_modelling.png"
-                                     alt="advisory_ business_modelling"></i>
+                            <i> <img src="{{ asset('assets/images/home/advisory_ business_modelling.png') }}" alt="advisory_ business_modelling" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Advisory & Business Modelling</h3>
@@ -112,7 +111,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/location_planning.png" alt="location_planning"></i>
+                            <i> <img src="{{ asset('assets/images/home/location_planning.png') }}" alt="location_planning" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Location & ROI Planning</h3>
@@ -125,7 +124,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/design_consultancy.png" alt="design_consultancy"></i>
+                            <i> <img src="{{ asset('assets/images/home/design_consultancy.png') }}" alt="design_consultancy" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Design & Consultancy</h3>
@@ -137,7 +136,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/civil_works.png" alt="civil_works"></i>
+                            <i> <img src="{{ asset('assets/images/home/civil_works.png') }}" alt="civil_works" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Civil Works</h3>
@@ -149,7 +148,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/mep_works.png" alt="mep_works"></i>
+                            <i> <img src="{{ asset('assets/images/home/mep_works.png') }}" alt="mep_works" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">MEP Works</h3>
@@ -162,7 +161,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/fit_out_works.png" alt="fit_out_works"></i>
+                            <i> <img src="{{ asset('assets/images/home/fit_out_works.png') }}" alt="fit_out_works" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Fit-out Works</h3>
@@ -175,7 +174,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/supply_installation.png" alt="supply_installation"></i>
+                            <i> <img src="{{ asset('assets/images/home/supply_installation.png') }}" alt="supply_installation" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Supply & Installation</h3>
@@ -187,7 +186,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/operation_maintenance.png" alt="operation_maintenance"></i>
+                            <i> <img src="{{ asset('assets/images/home/operation_maintenance.png') }}" alt="operation_maintenance" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Operation & Maintenance</h3>
@@ -200,8 +199,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/revenue_based_partnership.png"
-                                     alt="revenue_based_partnership"></i>
+                            <i> <img src="{{ asset('assets/images/home/revenue_based_partnership.png') }}" alt="revenue_based_partnership" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Revenue-based Partnership</h3>
@@ -338,7 +336,7 @@
                 <!-- .col-lg-6 end -->
                 <div class="col-sm-12 col-md-12 col-lg-6 pr-0">
                     <div class="banner--img ">
-                        <img src="assets/images/home/why-partner-with-us.png" class="imgWidth" alt="banner img">
+                        <img src="{{ asset('assets/images/home/why-partner-with-us.png') }}" class="imgWidth" alt="Why Partner With Us" loading="lazy">
                     </div>
                 </div>
                 <!-- .col-lg-6 end -->
@@ -369,7 +367,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-customer filter-tips">
                                 <div class="case-item-container">
                                     <div class="case--img">
-                                        <img src="{{ asset('assets/images/home/project-1.png') }}" alt="case Item">
+                                        <img src="{{ asset('assets/images/home/project-1.png') }}" alt="Soft Play Project" loading="lazy">
                                         <div class="case--hover">
                                             <div class="case--action">
                                                 <a href="#" title="case Item"></a>
@@ -392,7 +390,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-Investment">
                                 <div class="case-item-container">
                                     <div class="case--img">
-                                        <img src="{{ asset('assets/images/home/project-2.png') }}" alt="case Item">
+                                        <img src="{{ asset('assets/images/home/project-2.png') }}" alt="Family Entertainment Center" loading="lazy">
                                         <div class="case--hover">
                                             <div class="case--action">
                                                 <a href="#" title="case Item"></a>
@@ -418,7 +416,7 @@
                             <div class="col-sm-12 col-md-6 col-lg-4 case-item filter-tips filter-Consulting">
                                 <div class="case-item-container">
                                     <div class="case--img">
-                                        <img src="{{ asset('assets/images/home/project-3.png') }}" alt="case Item">
+                                        <img src="{{ asset('assets/images/home/project-3.png') }}" alt="Outdoor Net Trail" loading="lazy">
                                         <div class="case--hover">
                                             <div class="case--action">
                                                 <a href="#" title="case Item"></a>
@@ -446,7 +444,7 @@
         <!-- .container end -->
 
     </section>
-{{--    @if(count($projects) > 0)--}}
+    {{--    @if(count($projects) > 0)--}}
 {{--        <section id="case" class="case case-standard case-3col pt-110 bg-gray pos-relative">--}}
 {{--        <div class="container">--}}
 {{--            <div class="row flipInX" data-wow-delay="100ms">--}}
@@ -501,7 +499,7 @@
 {{--    @endif--}}
     <section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
         <div class="bg-section">
-            <img src="assets/images/background/2.jpg" alt="background">
+            <img src="{{ asset('assets/images/background/2.jpg') }}" alt="background" loading="lazy">
         </div>
         <div class="container">
             <div class="row clearfix">
@@ -524,8 +522,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table">
                     <div class="pricing-panel">
                         <div class="pricing--icon">
-                            <img src="assets/images/home/family-entertainment-center.png" alt="Starter Plan Icon"
-                                 class="img-fluid w-100 rounded-3">
+                            <img src="{{ asset('assets/images/home/family-entertainment-center.png') }}" alt="Family Entertainment Center" class="img-fluid w-100 rounded-3" loading="lazy">
                         </div>
                         <div class="pricing--heading text--center">
 
@@ -535,8 +532,6 @@
                                 A complete entertainment destination with soft play, trampolines, adventure zones,
                                 interactive attractions, dining and more..
                             </div>
-{{--                            <a class="btn btn--primary btn-padding btn--bordered btn--rounded mt-2" href="#">Explore--}}
-{{--                                Business Models </a>--}}
                         </div>
                     </div>
                 </div>
@@ -545,8 +540,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table ">
                     <div class="pricing-panel">
                         <div class="pricing--icon">
-                            <img src="assets/images/home/outdoor-waterPlay.png" alt="Basic Plan Icon"
-                                 class="img-fluid w-100 rounded-3">
+                            <img src="{{ asset('assets/images/home/outdoor-waterPlay.png') }}" alt="Outdoor Water Play" class="img-fluid w-100 rounded-3" loading="lazy">
                         </div>
                         <div class="pricing--heading text--center">
 
@@ -556,8 +550,6 @@
                                 Exciting water slides, splash zones, and interactive fountains for resorts, parks, and
                                 family-friendly outdoor attractions.
                             </div>
-{{--                            <a class="btn btn--primary btn-padding btn--bordered btn--rounded mt-2" href="#">Explore--}}
-{{--                                Business Models </a>--}}
                         </div>
                     </div>
                 </div>
@@ -566,8 +558,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 price-table">
                     <div class="pricing-panel">
                         <div class="pricing--icon">
-                            <img src="assets/images/home/quick-service-restaurant.png" alt="Starter Plan Icon"
-                                 class="img-fluid w-100 rounded-3">
+                            <img src="{{ asset('assets/images/home/quick-service-restaurant.png') }}" alt="Quick Service Restaurant" class="img-fluid w-100 rounded-3" loading="lazy">
                         </div>
                         <div class="pricing--heading text--center">
 
@@ -577,8 +568,6 @@
                                 Modern, efficient, and engaging dining solutions for leisure destinations, malls, and
                                 entertainment centers.
                             </div>
-{{--                            <a class="btn btn--primary btn-padding btn--bordered btn--rounded mt-2" href="#">Explore--}}
-{{--                                Business Models </a>--}}
                         </div>
                     </div>
                 </div>
@@ -622,13 +611,11 @@
                             <p><b>To transform ordinary spaces into extraordinary experiences that entertain, engage,
                                     and endure.</b></p>
 
-{{--                            <a class="btn btn--secondary btn--bordered btn--rounded mt-2 btn-padding" href="#">Read--}}
-{{--                                More</a>--}}
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                                    <img src="assets/images/home/about-us.png" class="imgWidth" alt="banner img">
+                                    <img src="{{ asset('assets/images/home/about-us.png') }}" class="imgWidth" alt="About Us" loading="lazy">
                                 </div>
                             </div>
 
@@ -650,7 +637,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/transparency.png" alt="transparency"></i>
+                            <i> <img src="{{ asset('assets/images/home/transparency.png') }}" alt="transparency" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Transparency</h3>
@@ -663,7 +650,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/integrity.png" alt="integrity"></i>
+                            <i> <img src="{{ asset('assets/images/home/integrity.png') }}" alt="integrity" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Integrity</h3>
@@ -675,7 +662,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/innovation.png" alt="innovation"></i>
+                            <i> <img src="{{ asset('assets/images/home/innovation.png') }}" alt="innovation" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Innovation</h3>
@@ -687,7 +674,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="feature-card">
                         <div class="feature-card-icon">
-                            <i> <img src="assets/images/home/partnership.png" alt="partnership"></i>
+                            <i> <img src="{{ asset('assets/images/home/partnership.png') }}" alt="partnership" loading="lazy"></i>
                         </div>
                         <div class="feature-card-content">
                             <h3 class="feature-card-title">Partnership</h3>

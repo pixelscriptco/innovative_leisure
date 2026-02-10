@@ -6,10 +6,16 @@
     <meta name="author" content="zytheme"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Consulting Business Consulting Finance Html5 Template">
-    <link href="assets/images/favicon/favicon-16x16.png" rel="icon">
-    <link
-        href="http://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800%7CRoboto:300i,400,400i,500,500i,700"
-        rel="stylesheet" type="text/css">
+    
+    <!-- Resource Hints for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <link href="{{ asset('assets/images/favicon/favicon-16x16.png') }}" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Critical CSS - Inline or Preload -->
     <link href="{{ asset('assets/css/external.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet">
@@ -18,8 +24,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/layers.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/navigation.min.css') }}">
     <!--[if lt IE 9]>
-    <script src="{{ asset('assets/js/html5shiv.js') }}"></script>
-    <script src="{{ asset('assets/js/respond.min.js') }}"></script>
+    <script defer src="{{ asset('assets/js/html5shiv.js') }}"></script>
+    <script defer src="{{ asset('assets/js/respond.min.js') }}"></script>
     <![endif]-->
     <title>Innovative Leisure</title>
 </head>
@@ -193,23 +199,18 @@
 
 <!-- Footer Scripts
 ============================================= -->
-<script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins.js') }}"></script>
-<script src="{{ asset('assets/js/functions.js') }}"></script>
+<script defer src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
+<script defer src="{{ asset('assets/js/plugins.js') }}"></script>
+<script defer src="{{ asset('assets/js/functions.js') }}"></script>
 <!-- RS5.0 Core JS Files -->
-<script src="{{ asset('assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0') }}"></script>
-<script src="{{ asset('assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
-<script src="{{ asset('assets/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+<script defer src="{{ asset('assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0') }}"></script>
+<script defer src="{{ asset('assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0') }}"></script>
+<script defer src="{{ asset('assets/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+<script defer src="{{ asset('assets/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+<script defer src="{{ asset('assets/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
 <!-- RS Configration JS Files -->
-<script src="{{ asset('assets/js/rsconfig.js') }}"></script>
-<script src="{{ asset('assets/js/product-config.js') }}"></script>
+<script defer src="{{ asset('assets/js/rsconfig.js') }}"></script>
+<script defer src="{{ asset('assets/js/product-config.js') }}"></script>
 @yield('page-script')
 </body>
 </html>
