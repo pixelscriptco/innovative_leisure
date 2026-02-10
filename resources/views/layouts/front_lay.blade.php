@@ -10,13 +10,13 @@
     <link
         href="http://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800%7CRoboto:300i,400,400i,500,500i,700"
         rel="stylesheet" type="text/css">
-    <link href="{{ asset('assets/css/external.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/external.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/settings.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/layers.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/navigation.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/layers.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/navigation.min.css') }}">
     <!--[if lt IE 9]>
     <script src="{{ asset('assets/js/html5shiv.js') }}"></script>
     <script src="{{ asset('assets/js/respond.min.js') }}"></script>
